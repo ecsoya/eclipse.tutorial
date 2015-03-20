@@ -1,2 +1,2 @@
 # eclipse.tutorial
-Eclipse Tutorial
+Eclipse Plug-in Development Tutorial.
