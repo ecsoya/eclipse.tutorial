@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Eclipse Tutorial
+Bundle-SymbolicName: org.ecsoya.eclipse.tutorial;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Export-Package: org.ecsoya.eclipse.tutorial
+Bundle-Vendor: Ecsoya of Soyatec
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: org.ecsoya.eclipse.tutorial.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
