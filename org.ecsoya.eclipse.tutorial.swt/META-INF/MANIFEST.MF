@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: SWT Tutorial
-Bundle-SymbolicName: org.eclipse.tutorial.swt
+Bundle-SymbolicName: org.ecsoya.eclipse.tutorial.swt
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: org.eclipse.tutorial.swt.Activator
 Bundle-Vendor: Soyatec
