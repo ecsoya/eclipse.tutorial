@@ -1,0 +1,5 @@
+markdown: rdiscount
+pygments: true
+name: Eclipse Tutorial	
+description: Eclipse Plug-in Development Tutorials
+url: http://ecsoya.github.io/eclipse.tutorial
