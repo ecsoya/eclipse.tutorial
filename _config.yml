@@ -2,7 +2,7 @@ markdown: rdiscount
 name: Eclipse Tutorial	
 description: Eclipse Plug-in Development Tutorials
 url: http://ecsoya.github.io/eclipse.tutorial
-
+baseurl=/eclipse.tutorial
 ##
 # Parameters for WikiToJekyll
 # Used by Rake:wikisub, Rake:wiki and wikiLinks generator plugin
@@ -50,4 +50,3 @@ wikiToJekyll:
   # commit and push to Jekyll repository after wiki synchronisation
   commit_and_push: false
   
-  baseurl=/eclipse.tutorial
