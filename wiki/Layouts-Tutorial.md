@@ -5,7 +5,7 @@ wikiPageName: Layouts-Tutorial
 menu: wiki
 ---
 
-# Layout Tutorial
+## Layout Tutorial
 
 `Layout`是用来控制容器（`Composite`）中控件的位置（`position`）和大小（`size`）的机制，前面我们也有提到，如果一个控件没有设置大小，它的默认值是0，就不会显示在界面中（`SWT`不像`swing/JavaFX`那样会给控件自动分配大小）。
 
