@@ -1,5 +1,52 @@
 markdown: rdiscount
-pygments: true
+highlighter: true
 name: Eclipse Tutorial	
 description: Eclipse Plug-in Development Tutorials
 url: http://ecsoya.github.io/eclipse.tutorial
+
+##
+# Parameters for WikiToJekyll
+# Used by Rake:wikisub, Rake:wiki and wikiLinks generator plugin
+##
+wikiToJekyll:
+
+  # your user Github Name
+  user_name: ecsoya
+
+  # your repository Name
+  repository_name: eclipse.tutorial
+
+  # set your remote name. 'origin' is the default name set
+  # when you do a 'git init'
+  # if you changed this name be sure to change this parameter
+  deploy_remote: "origin"
+
+  # for an organization / user, publication branch is master
+  # for a project, publication branch is gh-pages
+  deploy_branch: "gh-pages"
+
+  # wiki repository url
+  # if you live this blank, it will be derived from you code
+  # user_name and repository_name
+  #   eg : wiki_repository_url = user_name/repository_name/wiki'
+  #
+  # If you're importing a wiki from another code repository
+  # you MUST set this url
+  #
+  # IMPORTANT: no git@github.com: in front
+  #            You MUST use the htpps:// url or it will
+  #            cause a submodule error on github
+  #
+  # Example : https://github.com/userName/repositoryName.wiki.git
+
+  wiki_repository_url: https://github.com/ecsoya/eclipse.tutorial.wiki.git
+
+  # wiki submodule folder
+  # the underscore makes sure that this folder is ignored by Jekyll
+  wiki_source: "_wiki"
+
+  # wiki Jekyll generated pages destination folder
+  wiki_dest: "wiki"
+
+  # commit and push to Jekyll repository after wiki synchronisation
+  commit_and_push: false

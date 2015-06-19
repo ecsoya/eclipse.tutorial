@@ -78,7 +78,16 @@
   <li><a href="pptx/17 - Introduction of Soyatec productions.pptx">17 - Introduction of Soyatec productions.pptx</a></li>
 </ul>
 
-<p>Browse to the <a href="https://github.com/ecsoya/eclipse.tutorial/wiki">Wiki page</a> to get online tutorials.</p>
+<p>Online tutorials.</p>
+<p>
+	<ul class="wikiMenu">
+  {% for p in site.pages %}
+    {% if p.menu == "wiki" %}
+    <li><a class="post-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+</p>
       </section>
 
       <footer>
