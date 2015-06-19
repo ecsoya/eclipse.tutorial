@@ -7,7 +7,7 @@ menu: wiki
 
 SWT中包含了很多常用的控件，如`Button`，`Text`，`Menu`等等。你可以从`org.eclipse.swt.widgets`或`org.eclipse.swt.custom`包中找到他们。通常情况下，控件都继承了`Widget`类或是`Control`类，由于SWT是调用JNI实现的，很多基础控件类都是不允许被继承重写的。下面这张图是从[SWT官网](http://www.eclipse.org/swt/widgets/)上截取的图片，你可以预览一下这些基本控件。
 
-![]({{site.baseurl}}/wiki/images/image_swt_widgets.png)
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_widgets.png)
 
 ### 1. 控件（Control）的创建和添加
 
@@ -70,9 +70,9 @@ SWT中所有的控件都可以添加事件监听，比如鼠标点击，键盘�
   * `GridLayout`: 所有的控件一次放在格子里。
   * `FormLayout`: 所有的控件根据设置的相关性来排列，设置较为复杂。
 
-更多内容请看[Layouts Tutorial]({{site.baseurl}}/wiki/Layouts-Tutorial.html)
+更多内容请看[Layouts Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Layouts-Tutorial.html)
 
 ***
 
-上一篇：[SWT]({{site.baseurl}}/wiki/Standard-Widget-Toolkit.html)
-下一篇：[Label Tutorial]({{site.baseurl}}/wiki/Label-Tutorial.html)
+上一篇：[SWT]({{site.baseurl}}/eclipse.tutorial/wiki/Standard-Widget-Toolkit.html)
+下一篇：[Label Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Label-Tutorial.html)

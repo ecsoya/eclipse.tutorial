@@ -9,7 +9,7 @@ menu: wiki
 
 既然说了控件的位置和大小，有一张图你一定会感兴趣：
 
-![]({{site.baseurl}}/wiki/images/GeneralTerms.jpg)
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/GeneralTerms.jpg)
 
 `这张图详细的描述了Composite（图上是一个TabFolder）的位置相关的属性。`
   * `location：这个Composite的位置`。
@@ -34,14 +34,14 @@ menu: wiki
 
 先看看SWT中的标准的Layout吧：它们都包含在`org.eclipse.swt.layout.*`包中。
 
-  * [FillLayout]({{site.baseurl}}/wiki/FillLayout-Tutorial.html)
-  * [RowLayout]({{site.baseurl}}/wiki/RowLayout-Tutorial.html)
-  * [GridLayout]({{site.baseurl}}/wiki/GridLayout-Tutorial.html)
-  * [FormLayout]({{site.baseurl}}/wiki/FormLayout-Tutorial.html)
+  * [FillLayout]({{site.baseurl}}/eclipse.tutorial/wiki/FillLayout-Tutorial.html)
+  * [RowLayout]({{site.baseurl}}/eclipse.tutorial/wiki/RowLayout-Tutorial.html)
+  * [GridLayout]({{site.baseurl}}/eclipse.tutorial/wiki/GridLayout-Tutorial.html)
+  * [FormLayout]({{site.baseurl}}/eclipse.tutorial/wiki/FormLayout-Tutorial.html)
 
 在SWT的custom包中也有一个Layout，`org.eclipse.swt.custom.StackLayout`
 
-  * [StackLayout]({{site.baseurl}}/wiki/StakLayout-Tutorial.html)
+  * [StackLayout]({{site.baseurl}}/eclipse.tutorial/wiki/StakLayout-Tutorial.html)
 
 ***
 参考资料：
