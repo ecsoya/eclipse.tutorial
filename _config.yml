@@ -50,4 +50,3 @@ wikiToJekyll:
   # commit and push to Jekyll repository after wiki synchronisation
   commit_and_push: false
   
-  baseurl: /eclipse.tutorial
