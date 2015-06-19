@@ -17,7 +17,7 @@ Eclipse分为好多个版本，可以提供不同的功能给各种类型的开�
 
 首先，打开 [Eclipse官网](http://www.eclipse.org/downloads)去下载Eclipse for RCP and RAP Developers, 如下图：
 
-![]({{site.basrurl}}/eclipse.tutorial/wiki/images/home_download_eclipse.png)
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/home_download_eclipse.png)
 
 安装很简单，只要将下好的文件解压到指定的目录OK了。
 
