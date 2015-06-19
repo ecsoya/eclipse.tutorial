@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            name="Ecsoya Tutorial"
+            class="org.ecsoya.eclipse.tutorial.preference.preferences.SamplePreferencePage"
+            id="org.ecsoya.eclipse.tutorial.preference.preferences.SamplePreferencePage">
+      </page>
+      <page
+            category="org.ecsoya.eclipse.tutorial.preference.preferences.SamplePreferencePage"
+            class="org.ecsoya.eclipse.tutorial.preference.preferences.SamplePreferencePage2"
+            id="org.ecsoya.eclipse.tutorial.preference.preferences.SamplePreferencePage2"
+            name="Sample Preferences">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="org.ecsoya.eclipse.tutorial.preference.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+  <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu?after=file">
+         <menu
+               id="ecsoya"
+               label="Ecsoya">
+            <command
+                  commandId="org.ecsoya.eclipse.tutorial.preference.command"
+                  style="push">
+            </command>
+         </menu>
+      </menuContribution>
+   </extension>
+  <extension
+        point="org.eclipse.ui.commands">
+     <command
+           defaultHandler="org.ecsoya.eclipse.tutorial.preference.OpenPreferences"
+           id="org.ecsoya.eclipse.tutorial.preference.command"
+           name="Preferences">
+     </command>
+  </extension>
+</plugin>

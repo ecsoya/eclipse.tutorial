@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="viewItemProvider" name="View Item Provider" schema="schema/viewItemProvider.exsd"/>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="Ecsoya"
+            id="org.ecsoya.eclipse.tutorial.extensionpoints">
+      </category>
+      <view
+            name="Extensible View"
+            icon="icons/sample.gif"
+            category="org.ecsoya.eclipse.tutorial.extensionpoints"
+            class="org.ecsoya.eclipse.tutorial.extensionpoints.views.ExtensibleView"
+            id="org.ecsoya.eclipse.tutorial.extensionpoints.views.ExtensibleView">
+      </view>
+   </extension>
+
+</plugin>

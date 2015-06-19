@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: GEF Tutorial
+Bundle-SymbolicName: org.ecsoya.eclipse.tutorial.gef
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.ecsoya.eclipse.tutorial.gef.Activator
+Bundle-Vendor: Ecsoya
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.gef;bundle-version="3.9.100"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy

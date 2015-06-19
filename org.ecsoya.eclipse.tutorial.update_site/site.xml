@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.ecsoya.eclipse.tutorial.feature_1.0.0.201505151026.jar" id="org.ecsoya.eclipse.tutorial.feature" version="1.0.0.201505151026">
+      <category name="Ecsoya Tutorials"/>
+   </feature>
+   <category-def name="Ecsoya Tutorials" label="Ecsoya Tutorials"/>
+</site>

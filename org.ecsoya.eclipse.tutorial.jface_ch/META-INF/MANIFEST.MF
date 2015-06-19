@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JFace Chinese Language Tutorial
+Bundle-SymbolicName: org.ecsoya.eclipse.tutorial.jface_ch
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Ecsoya
+Fragment-Host: org.eclipse.jface;bundle-version="3.10.2"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

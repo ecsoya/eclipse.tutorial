@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RCP Tutorial
+Bundle-SymbolicName: org.ecsoya.eclipse.tutorial.rcp;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.ecsoya.eclipse.tutorial.rcp.Activator
+Bundle-Vendor: Ecsoya
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.intro,
+ org.eclipse.ui.intro.universal,
+ org.eclipse.core.resources;bundle-version="3.9.1",
+ org.eclipse.ui.navigator,
+ org.eclipse.ui.navigator.resources
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy

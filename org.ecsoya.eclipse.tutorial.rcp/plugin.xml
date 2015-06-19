@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="org.ecsoya.eclipse.tutorial.rcp.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="Ecsoya"
+            class="org.ecsoya.eclipse.tutorial.rcp.Perspective"
+            id="org.ecsoya.eclipse.tutorial.rcp.perspective">
+      </perspective>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.ecsoya.eclipse.tutorial.rcp.application"
+            name="Eclipse RCP Tutorial">
+         <property
+               name="windowImages"
+               value="icons/alt_window16.gif,icons/alt_window32.gif">
+         </property>
+         <property
+               name="appName"
+               value="Eclipse RCP Tutorial">
+         </property>
+         <property
+               name="startupForegroundColor"
+               value="000000">
+         </property>
+         <property
+               name="startupMessageRect"
+               value="7,252,445,20">
+         </property>
+         <property
+               name="startupProgressRect"
+               value="5,275,445,15">
+         </property>
+         <property
+               name="preferenceCustomization"
+               value="plugin_customization.ini">
+         </property>
+         <property
+               name="aboutImage"
+               value="icons/alt_about.gif">
+         </property>
+         <property
+               name="aboutText"
+               value="Welcome to Soyatec&#x0A; Here is the RCP Tutorial!">
+         </property>
+      </product>
+   </extension>
+   <extension
+         point="org.eclipse.ui.intro">
+      <intro
+            class="org.eclipse.ui.intro.config.CustomizableIntroPart"
+            id="org.ecsoya.eclipse.tutorial.rcp.intro">
+      </intro>
+      <introProductBinding
+            introId="org.ecsoya.eclipse.tutorial.rcp.intro"
+            productId="org.ecsoya.eclipse.tutorial.rcp.product">
+      </introProductBinding>
+   </extension>
+   <extension
+         point="org.eclipse.ui.intro.config">
+      <config
+            content="introContent.xml"
+            id="org.ecsoya.eclipse.tutorial.rcp.introConfigId"
+            introId="org.ecsoya.eclipse.tutorial.rcp.intro">
+         <presentation
+               home-page-id="root">
+            <implementation
+                  kind="html"
+                  os="win32,linux,macosx"
+                  style="content/shared.css">
+            </implementation>
+         </presentation>
+      </config>
+   </extension>
+
+</plugin>

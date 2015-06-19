@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Fragment Tutorial
+Bundle-SymbolicName: org.ecsoya.eclipse.tutorial.fragment;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.ecsoya.eclipse.tutorial.fragment.Activator
+Bundle-Vendor: Ecsoya
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
