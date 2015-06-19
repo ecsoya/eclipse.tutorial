@@ -102,7 +102,7 @@ menu: wiki
 
 如图：
 
-**[[images/image_swt_toolbar.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_toolbar.png)
 
 ### 解析
 
@@ -173,19 +173,19 @@ _**关于ToolItem**_：
 
 如图：
 
-**[[images/image_swt_toolbar2.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_toolbar2.png)
 
 **注意**：`ToolItem的宽度（setWidth()）一定要根据控件来重新定义，不然就会使用默认的Separator的宽度而导致控件显示不全。`
 
 ***
 参考资料：
   * [ToolBar, ToolItem snippets](http://www.eclipse.org/swt/snippets/#toolbar)
-  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置](https://github.com/ecsoya/eclipse.tutorial/wiki/Common-Properties-Tutorial)。
-  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器](https://github.com/ecsoya/eclipse.tutorial/wiki/Layouts-Tutorial)。
+  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置]({{site.baseurl}}/wiki/Common-Properties-Tutorial.html)
+  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器]({{site.baseurl}}/wiki/Layouts-Tutorial.html)
   * [SWT Example: ControlExample](http://www.eclipse.org/swt/examples.php)
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
 
-上一篇：[Tree Tutorial](https://github.com/ecsoya/eclipse.tutorial/wiki/Tree-Tutorial)
-下一篇：[CoolBar Tutorial](https://github.com/ecsoya/eclipse.tutorial/wiki/CoolBar-Tutorial)
+上一篇：[Tree Tutorial]({{site.baseurl}}/wiki/Tree-Tutorial.html)
+下一篇：[CoolBar Tutorial]({{site.baseurl}}/wiki/CoolBar-Tutorial.html)

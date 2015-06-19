@@ -15,6 +15,6 @@ menu: wiki
   
 看图，理解一切：
 
-**[[images/image_swt_filllayout.gif]]**
+![]({{site.baseurl}}/wiki/images/image_swt_filllayout.gif)
 
 

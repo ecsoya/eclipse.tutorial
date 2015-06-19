@@ -14,7 +14,7 @@ menu: wiki
     Label imageLabel = new Label(shell, SWT.BORDER);
     imageLabel.setImage(display.getSystemImage(SWT.ICON_QUESTION));
 
-**[[images/image_swt_label_1.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_label_1.png)
 
 **Tips**: 
   1. `一个Label，不能同时显示文本和图片，只能二选一。`
@@ -24,7 +24,7 @@ menu: wiki
     new Label(shell, SWT.SEPARATOR | SWT.HORIZONTAL);
     new Label(shell, SWT.SEPARATOR | SWT.VERTICAL);
 
-**[[images/image_swt_label_2.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_label_2.png)
 
 很简单吧？没错，两点:
   1. `SWT.SEPARATOR`；
@@ -89,7 +89,7 @@ Label提供了三种对齐的方式：左对齐（`SWT.LEFT`）,居中对齐（`
 		display.dispose();
 上图：
 
-**[[images/image_swt_label_3.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_label_3.png)
 
 ### 4. 文本自动换行（Wrap）
 
@@ -126,18 +126,18 @@ Label提供了三种对齐的方式：左对齐（`SWT.LEFT`）,居中对齐（`
 
 如图：
 
-**[[images/image_swt_label_4.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_label_4.png)
 
 一目了然吧？
 
 参考资料：
   * [Label snippets](http://www.eclipse.org/swt/snippets/#label)
-  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置](https://github.com/ecsoya/eclipse.tutorial/wiki/Common-Properties-Tutorial)。
-  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器](https://github.com/ecsoya/eclipse.tutorial/wiki/Layouts-Tutorial)。
+  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置]({{site.baseurl}}/wiki/Common-Properties-Tutorial.html)
+  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器]({{site.baseurl}}/wiki/Layouts-Tutorial.html)
   * [SWT Example: ControlExample](http://www.eclipse.org/swt/examples.php)
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
 
-上一篇：[Widgets Tutorial](https://github.com/ecsoya/eclipse.tutorial/wiki/SWT-Widgets)
-下一篇：[Button Tutorial](https://github.com/ecsoya/eclipse.tutorial/wiki/Button-Tutorial)
+上一篇：[Widgets Tutorial]({{site.baseurl}}/wiki/SWT-Widgets.html)
+下一篇：[Button Tutorial]({{site.baseurl}}/wiki/Button-Tutorial.html)

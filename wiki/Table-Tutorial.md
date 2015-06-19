@@ -9,7 +9,7 @@ menu: wiki
 
 我们先来上一张图看看：
 
-**[[images/image_swt_table.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_table.png)
 
 ### 怎么创建Table？接下来我们就一步一步去创建一个Table出来。
 
@@ -50,7 +50,7 @@ _**第一步. 初始化**_：
 
 如上代码，我们创建了两个Table，一个是默认的，一个是实现了SWT.CHECK的，看图：
 
-**[[images/image_swt_table2.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_table2.png)
 
 咦？怎么什么都没有，空白的！是的，我们还没有给他们添加东西呢。
 
@@ -74,7 +74,7 @@ _**第二步. 添加Table里面的内容（TableItem）**_：
 
 再来看一看：
 
-**[[images/image_swt_table3.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_table3.png)
 
 怎么样？有东西了吧？
 
@@ -100,7 +100,7 @@ _**第三步.设置表头（TableColumn）**_
 
 看看效果如何？
 
-**[[images/image_swt_table4.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_table4.png)
 
 噢噢，怎么回事？怎么又成小白了？
 
@@ -116,7 +116,7 @@ TableColumn在初始化的时候，将自己的宽度设为0了，其实，现�
 
 这下怎么样？
 
-**[[images/image_swt_table5.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_table5.png)
 
 出来了吧？
 
@@ -132,7 +132,7 @@ TableColumn在初始化的时候，将自己的宽度设为0了，其实，现�
 
 图呢？
 
-**[[images/image_swt_table6.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_table6.png)
 
 终于搞定了！
 
@@ -147,7 +147,7 @@ _**第四步.设置图片**_
 
 此处只是写出了方法，并没有具体的代码示例，效果可以如下图：
 
-**[[images/image_swt_table7.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_table7.png)
 
 至此，两个简单的Table就算完成了。有没有问题？
 
@@ -295,12 +295,12 @@ _触发条件_: 由于上面三个事件都是在TableItem的状态发生改变�
 ***
 参考资料：
   * [Table, TableItem, TableColumn snippets](http://www.eclipse.org/swt/snippets/#table)
-  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置](https://github.com/ecsoya/eclipse.tutorial/wiki/Common-Properties-Tutorial)。
-  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器](https://github.com/ecsoya/eclipse.tutorial/wiki/Layouts-Tutorial)。
+  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置]({{site.baseurl}}/wiki/Common-Properties-Tutorial.html)
+  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器]({{site.baseurl}}/wiki/Layouts-Tutorial.html)
   * [SWT Example: ControlExample](http://www.eclipse.org/swt/examples.php)
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
 
-上一篇：[DateTime Tutorial](https://github.com/ecsoya/eclipse.tutorial/wiki/DateTime-Tutorial)
-下一篇：[Tree Tutorial](https://github.com/ecsoya/eclipse.tutorial/wiki/Tree-Tutorial)
+上一篇：[DateTime Tutorial]({{site.baseurl}}/wiki/DateTime-Tutorial.html)
+下一篇：[Tree Tutorial]({{site.baseurl}}/wiki/Tree-Tutorial.html)

@@ -90,15 +90,15 @@ menu: wiki
 
 如图一，Shell的ToolTip：
 
-**[[images/image_swt_tooltip1.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_tooltip1.png)
 
 如图二，普通的ToolTip控件：
 
-**[[images/image_swt_tooltip2.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_tooltip2.png)
 
 如图三，气泡状的ToolTip控件：
 
-**[[images/image_swt_tooltip3.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_tooltip3.png)
 
 ### 控件的设置ToolTip设置
 
@@ -142,5 +142,5 @@ menu: wiki
 
 ***
 
-上一篇：[Sash Tutorial](https://github.com/ecsoya/eclipse.tutorial/wiki/Sash-Tutorial)
-下一篇：[Tray Tutorial](https://github.com/ecsoya/eclipse.tutorial/wiki/Tray-Tutorial)
+上一篇：[Sash Tutorial]({{site.baseurl}}/wiki/Sash-Tutorial.html)
+下一篇：[Tray Tutorial]({{site.baseurl}}/wiki/Tray-Tutorial.html)

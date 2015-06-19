@@ -59,7 +59,7 @@ menu: wiki
 
 如图：
 
-**[[images/image_swt_expandbar.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_expandbar.png)
 
 ### 要点
 
@@ -79,12 +79,12 @@ _**ExpandBar**_
 ***
 参考资料：
   * [ExpandBar snippets](http://www.eclipse.org/swt/snippets/#expandbar)
-  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置](https://github.com/ecsoya/eclipse.tutorial/wiki/Common-Properties-Tutorial)。
-  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器](https://github.com/ecsoya/eclipse.tutorial/wiki/Layouts-Tutorial)。
+  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置]({{site.baseurl}}/wiki/Common-Properties-Tutorial.html)
+  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器]({{site.baseurl}}/wiki/Layouts-Tutorial.html)
   * [SWT Example: ControlExample](http://www.eclipse.org/swt/examples.php)
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
 
-上一篇：[TaskBar Tutorial](https://github.com/ecsoya/eclipse.tutorial/wiki/TaskBar-Tutorial)
-下一篇：[Menu Tutorial](https://github.com/ecsoya/eclipse.tutorial/wiki/Menu-Tutorial)
+上一篇：[TaskBar Tutorial]({{site.baseurl}}/wiki/TaskBar-Tutorial.html)
+下一篇：[Menu Tutorial]({{site.baseurl}}/wiki/Menu-Tutorial.html)

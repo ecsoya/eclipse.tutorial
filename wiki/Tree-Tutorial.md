@@ -5,7 +5,7 @@ wikiPageName: Tree-Tutorial
 menu: wiki
 ---
 
-`Tree`和上一篇讲过的[Table](https://github.com/ecsoya/eclipse.tutorial/wiki/Table-Tutorial)非常类似。是由 `org.eclipse.swt.widgets.Tree`，`org.eclipse.swt.widgets.TreeItem`和`org.eclipse.swt.widgets.TreeColumn`实现的，只不过`TreeItem`还可以添加子节点罢了。
+`Tree`和上一篇讲过的[Table]({{site.baseurl}}/wiki/Table-Tutorial.html)非常类似。是由 `org.eclipse.swt.widgets.Tree`，`org.eclipse.swt.widgets.TreeItem`和`org.eclipse.swt.widgets.TreeColumn`实现的，只不过`TreeItem`还可以添加子节点罢了
 
 		Display display = new Display();
 		Shell shell = new Shell(display);
@@ -101,7 +101,7 @@ menu: wiki
 
 如图：
 
-**[[images/image_swt_tree.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_tree.png)
 
 ***
 ### Expand 和 Collapse
@@ -135,12 +135,12 @@ menu: wiki
 ***
 参考资料：
   * [Tree, TreeItem, TreeColumn snippets](http://www.eclipse.org/swt/snippets/#tree)
-  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置](https://github.com/ecsoya/eclipse.tutorial/wiki/Common-Properties-Tutorial)。
-  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器](https://github.com/ecsoya/eclipse.tutorial/wiki/Layouts-Tutorial)。
+  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置]({{site.baseurl}}/wiki/Common-Properties-Tutorial.html)
+  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器]({{site.baseurl}}/wiki/Layouts-Tutorial.html)
   * [SWT Example: ControlExample](http://www.eclipse.org/swt/examples.php)
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
 
-上一篇：[Table Tutorial](https://github.com/ecsoya/eclipse.tutorial/wiki/Table-Tutorial)
-下一篇：[ToolBar Tutorial](https://github.com/ecsoya/eclipse.tutorial/wiki/ToolBar-Tutorial)
+上一篇：[Table Tutorial]({{site.baseurl}}/wiki/Table-Tutorial.html)
+下一篇：[ToolBar Tutorial]({{site.baseurl}}/wiki/ToolBar-Tutorial.html)

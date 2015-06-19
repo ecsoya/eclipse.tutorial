@@ -39,7 +39,7 @@ menu: wiki
 
 此段代码在`Windows`下如图：
 
-**[[images/image_swt_browser.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_browser.png)
 
 ### 常用方法
 
@@ -57,5 +57,5 @@ menu: wiki
 
 ***
 
-上一篇：[Link Tutorial](https://github.com/ecsoya/eclipse.tutorial/wiki/Link-Tutorial)
-下一篇：[Dialog Tutorial](https://github.com/ecsoya/eclipse.tutorial/wiki/Browser-Tutorial)
+上一篇：[Link Tutorial]({{site.baseurl}}/wiki/Link-Tutorial.html)
+下一篇：[Dialog Tutorial]({{site.baseurl}}/wiki/Browser-Tutorial.html)

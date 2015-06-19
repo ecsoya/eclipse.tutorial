@@ -19,12 +19,12 @@ TaskBar是系统任务栏，一般情况下，程序运行起来之后，在系�
 		}
 第三步：如果TaskItem不是空的，就可以进行一下设置了：
 
-  * `item.setOverlayImage(display.getSystemImage(SWT.ICON_ERROR));` **[[images/image_swt_taskbar_overlayimage.png]]**
-  * `item.setOverlayText("OK");` **[[images/image_swt_taskbar_overlaytext.png]]**
+  * `item.setOverlayImage(display.getSystemImage(SWT.ICON_ERROR));` ![]({{site.baseurl}}/wiki/images/image_swt_taskbar_overlayimage.png)
+  * `item.setOverlayText("OK");` ![]({{site.baseurl}}/wiki/images/image_swt_taskbar_overlaytext.png)
   * `item.setProgress(50);` 设置进度。
-  * `item.setProgressState(SWT.NORMAL);` **[[images/image_swt_taskbar_normal.png]]** 
-  * `item.setProgressState(SWT.ERROR);` **[[images/image_swt_taskbar_error.png]]**
-  * `item.setProgressState(SWT.PAUSED);` **[[images/image_swt_taskbar_paused.png]]**
+  * `item.setProgressState(SWT.NORMAL);` ![]({{site.baseurl}}/wiki/images/image_swt_taskbar_normal.png)
+  * `item.setProgressState(SWT.ERROR);` ![]({{site.baseurl}}/wiki/images/image_swt_taskbar_error.png)
+  * `item.setProgressState(SWT.PAUSED);` ![]({{site.baseurl}}/wiki/images/image_swt_taskbar_paused.png)
 
 注意：
 
@@ -42,5 +42,5 @@ TaskBar是系统任务栏，一般情况下，程序运行起来之后，在系�
 
 ***
 
-上一篇：[ScrollBar Tutorial](https://github.com/ecsoya/eclipse.tutorial/wiki/ScrollBar-Tutorial)
-下一篇：[ExpandBar Tutorial](https://github.com/ecsoya/eclipse.tutorial/wiki/ExpandBar-Tutorial)
+上一篇：[ScrollBar Tutorial]({{site.baseurl}}/wiki/ScrollBar-Tutorial.html)
+下一篇：[ExpandBar Tutorial]({{site.baseurl}}/wiki/ExpandBar-Tutorial.html)

@@ -46,7 +46,7 @@ menu: wiki
 
 运行后的效果图：
 
-**[[images/image_swt_text1.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_text1.png)
 
 ### 需要注意的问题：
 
@@ -54,7 +54,7 @@ menu: wiki
 2. `自动换行（SWT.WRAP）只能应用在多行（SWT.MULTI）的Text中，如果不设置SWT.WRAP，多行的Text只有在文本中遇到换行符（\n）的情况下才换行。`
 3. `可以给多行（SWT.MULTI）的Text设置水平（SWT.HORIZONTAL）的或垂直的（SWT.VERTICAL）滚动条。`
 4. `文本对齐（Alignment）可以通过SWT.LEFT，SWT.RIGHT和SWT.CENTER来设置。`
-5. `对于搜索框（SWT.SEARCH）可以用SWT.ICON_CANCEL或SWT.ICON_SEARCH来设置图标，但是这要根据系统来定，如Windows就没有此功能。比如，在MAC下带取消图标的搜索框就长这个样子` **[[images/image_swt_text2.png]]**，`当你点击取消图标时，会清空搜索框里面的内容。`
+5. `对于搜索框（SWT.SEARCH）可以用SWT.ICON_CANCEL或SWT.ICON_SEARCH来设置图标，但是这要根据系统来定，如Windows就没有此功能。比如，在MAC下带取消图标的搜索框就长这个样子` ![]({{site.baseurl}}/wiki/images/image_swt_text2.png)`当你点击取消图标时，会清空搜索框里面的内容。
 6. `对于搜索框（SWT.SEARCH）,可以用setMessage()方法来设置提示信息。`
 7. `只读的Text，不允许被修改内容，且背景色为灰色。`
 8. `默认情况下，Text是没有边界的，要用SWT.BORDER来显示边界。` 
@@ -123,7 +123,7 @@ _触发条件_：
 
 如图：
 
-**[[images/image_swt_text3.png]]**
+![]({{site.baseurl}}/wiki/images/image_swt_text3.png)
 
 **2.** _**Modify**_：`通过addModifyListener(ModifyListener)或addListener(SWT.Modify, Listener)添加。`
 
@@ -209,12 +209,12 @@ _更多示例_：
 
 参考资料：
   * [Text snippets](http://www.eclipse.org/swt/snippets/#text)
-  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置](https://github.com/ecsoya/eclipse.tutorial/wiki/Common-Properties-Tutorial)。
-  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器](https://github.com/ecsoya/eclipse.tutorial/wiki/Layouts-Tutorial)。
+  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置]({{site.baseurl}}/wiki/Common-Properties-Tutorial.html)
+  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器]({{site.baseurl}}/wiki/Layouts-Tutorial.html)
   * [SWT Example: ControlExample](http://www.eclipse.org/swt/examples.php)
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
 
-上一篇：[Button Tutorial](https://github.com/ecsoya/eclipse.tutorial/wiki/Button-Tutorial)
-下一篇：[Combo Tutorial](https://github.com/ecsoya/eclipse.tutorial/wiki/Combo-Tutorial)
+上一篇：[Button Tutorial]({{site.baseurl}}/wiki/Button-Tutorial.html)
+下一篇：[Combo Tutorial]({{site.baseurl}}/wiki/Combo-Tutorial.html)
