@@ -60,11 +60,11 @@ menu: wiki
 		
 运行之后的效果如下：
 
-![]({{site.baseurl}}/wiki/images/image_swt_button1.png)
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_button1.png)
 
 ### 需要注意的问题：
 
-1. `Wrap（SWT.WRAP）属性，此属性对Arrow（SWT.ARROW）无效。它是用来对Button的长文本进行自动换行的,详细可参考上一篇`[Label Tutorial]({{site.baseurl}}/wiki/Label-Tutorial.html)
+1. `Wrap（SWT.WRAP）属性，此属性对Arrow（SWT.ARROW）无效。它是用来对Button的长文本进行自动换行的,详细可参考上一篇`[Label Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Label-Tutorial.html)
 2. `对Arrow（SWT.ARROW）来说，可以通过SWT.LEFT,SWT.RIGHT,SWT.TOP和SWT.BOTTOM来设置箭头的方向。`
 3. `对于除Arrow（SWT.ARROW）的按钮来说，可以通过SWT.LEFT,SWT.RIGHT和SWT.CENTER来设置图片和文本的对齐位置。`
 4. `对于CheckBox（SWT.CHECK），RadioBox（SWT.RADIO）和Toggle（SWT.TOOGLE）三个按钮来说，我们可以通过setSelection(true|false)来设置他们的选择状态和通过getSelection()来读取他们的选择状态。`
@@ -93,17 +93,17 @@ menu: wiki
 		
 效果如下：
 
-![]({{site.baseurl}}/wiki/images/image_swt_button2.png)
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_button2.png)
 
 参考资料：
   * [Button snippets](http://www.eclipse.org/swt/snippets/#button)
-  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置]({{site.baseurl}}/wiki/Common-Properties-Tutorial.html)
-  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器]({{site.baseurl}}/wiki/Layouts-Tutorial.html)
+  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置]({{site.baseurl}}/eclipse.tutorial/wiki/Common-Properties-Tutorial.html)
+  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器]({{site.baseurl}}/eclipse.tutorial/wiki/Layouts-Tutorial.html)
   * [SWT Example: ControlExample](http://www.eclipse.org/swt/examples.php)
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
 
-上一篇：[Label Tutorial]({{site.baseurl}}/wiki/Label-Tutorial.html)
-下一篇：[Text Tutorial]({{site.baseurl}}/wiki/Text-Tutorial.html)
+上一篇：[Label Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Label-Tutorial.html)
+下一篇：[Text Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Text-Tutorial.html)
    

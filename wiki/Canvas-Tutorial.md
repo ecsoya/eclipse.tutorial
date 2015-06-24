@@ -44,7 +44,7 @@ menu: wiki
 
 如图：
 
-![]({{site.baseurl}}/wiki/images/image_swt_canvas.png)
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_canvas.png)
 
 ### Canvas支持的特殊的style。
 
@@ -63,5 +63,5 @@ menu: wiki
 
 ***
 
-上一篇：[Composite Tutorial]({{site.baseurl}}/wiki/Composite-Tutorial.html)
-下一篇：[Group Tutorial]({{site.baseurl}}/wiki/Group-Tutorial.html)
+上一篇：[Composite Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Composite-Tutorial.html)
+下一篇：[Group Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Group-Tutorial.html)

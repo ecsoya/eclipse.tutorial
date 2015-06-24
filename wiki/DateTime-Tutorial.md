@@ -46,7 +46,7 @@ menu: wiki
 
 效果如图：
 
-![]({{site.baseurl}}/wiki/images/image_swt_datetime.png)
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_datetime.png)
 
 ***
 
@@ -59,12 +59,12 @@ menu: wiki
 ***
 参考资料：
   * [DateTime snippets](http://www.eclipse.org/swt/snippets/#datetime)
-  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置]({{site.baseurl}}/wiki/Common-Properties-Tutorial.html)
-  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器]({{site.baseurl}}/wiki/Layouts-Tutorial.html)
+  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置]({{site.baseurl}}/eclipse.tutorial/wiki/Common-Properties-Tutorial.html)
+  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器]({{site.baseurl}}/eclipse.tutorial/wiki/Layouts-Tutorial.html)
   * [SWT Example: ControlExample](http://www.eclipse.org/swt/examples.php)
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
 
-上一篇：[Spinner Tutorial]({{site.baseurl}}/wiki/Spinner-Tutorial.html)
-下一篇：[Table Tutorial]({{site.baseurl}}/wiki/Table-Tutorial.html)
+上一篇：[Spinner Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Spinner-Tutorial.html)
+下一篇：[Table Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Table-Tutorial.html)

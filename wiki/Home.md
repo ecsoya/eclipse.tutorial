@@ -17,7 +17,7 @@ Eclipse分为好多个版本，可以提供不同的功能给各种类型的开�
 
 首先，打开 [Eclipse官网](http://www.eclipse.org/downloads)去下载Eclipse for RCP and RAP Developers, 如下图：
 
-![]({{site.basrurl}}/wiki/images/home_download_eclipse.png)
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/home_download_eclipse.png)
 
 安装很简单，只要将下好的文件解压到指定的目录OK了。
 
@@ -31,13 +31,13 @@ Eclipse分为好多个版本，可以提供不同的功能给各种类型的开�
 ### 4. 再来几个插件的例子瞧瞧吧
 `New` --> `Plug-in Project` --> <输入名字> --> `Rich Client Platform` （选择`Yes`）-->
 
-![]({{site.baseurl}}/wiki/images/home_create_rcp.png)
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/home_create_rcp.png)
 
 然后点击`Next`或`Finish`完成。
 一个RCP的例子就建好了，那么问题来了，怎么运行呢？
 打开刚刚创建的project的`MANIFEST.MF`文件，找到`Testing`，点击`Launch an Eclipse Application`
 
-![]({{site.baseurl}}/wiki/images/home_launch_rcp.png)
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/home_launch_rcp.png)
 
 大功告成！
 
@@ -47,7 +47,7 @@ RCP（Rich Client Platform），简单来说就是eclipse核心组件与一些�
 ### 6. Eclipse UI
 Eclipse3.x及以下的版本中界面主要是通过SWT和JFace来实现的，Eclipse4之后的版本，逐渐加入了Java FX实现，不过要学习eclipse插件开发，就必须先对SWT和Jface有个系统的学习。接下来的章节我们就从SWT开始。
 
-[Standard Widget Toolkit]({{site.baseurl}}/wiki/Standard-Widget-Toolkit.html)
+[Standard Widget Toolkit]({{site.baseurl}}/eclipse.tutorial/wiki/Standard-Widget-Toolkit.html)
 
 ***
 

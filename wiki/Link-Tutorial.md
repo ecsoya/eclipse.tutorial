@@ -40,7 +40,7 @@ menu: wiki
 
 如下图所示：
 
-![]({{site.baseurl}}/wiki/images/image_swt_link.png)
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_link.png)
 
 ### 注意要点
 
@@ -55,5 +55,5 @@ menu: wiki
 
 ***
 
-上一篇：[Tray Tutorial]({{site.baseurl}}/wiki/Tray-Tutorial.html)
-下一篇：[Browser Tutorial]({{site.baseurl}}/wiki/Browser-Tutorial.html)
+上一篇：[Tray Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Tray-Tutorial.html)
+下一篇：[Browser Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Browser-Tutorial.html)

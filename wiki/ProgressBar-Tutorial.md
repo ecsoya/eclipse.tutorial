@@ -42,21 +42,21 @@ menu: wiki
 
 如图：
 
-![]({{site.baseurl}}/wiki/images/image_swt_progressbar.png)
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_progressbar.png)
 
 ### State
 
-`ProgressBar`在有些系统中（如Windows 7和Mac OS）支持三种类型的状态：`SWT.NORMAL`，`SWT.ERROR`和`SWT.PAUSED`。一般情况下会在[TaskBar]({{site.baseurl}}/wiki/TaskBar-Tutorial.html)上面以不同的颜色同步显示进度
+`ProgressBar`在有些系统中（如Windows 7和Mac OS）支持三种类型的状态：`SWT.NORMAL`，`SWT.ERROR`和`SWT.PAUSED`。一般情况下会在[TaskBar]({{site.baseurl}}/eclipse.tutorial/wiki/TaskBar-Tutorial.html)上面以不同的颜色同步显示进度
 
 ***
 参考资料：
   * [ProgressBar snippets](http://www.eclipse.org/swt/snippets/#progressbar)
-  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置]({{site.baseurl}}/wiki/Common-Properties-Tutorial.html)
-  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器]({{site.baseurl}}/wiki/Layouts-Tutorial.html)
+  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置]({{site.baseurl}}/eclipse.tutorial/wiki/Common-Properties-Tutorial.html)
+  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器]({{site.baseurl}}/eclipse.tutorial/wiki/Layouts-Tutorial.html)
   * [SWT Example: ControlExample](http://www.eclipse.org/swt/examples.php)
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
 
-上一篇：[CoolBar Tutorial]({{site.baseurl}}/wiki/CoolBar-Tutorial.html)
-下一篇：[ScrollBar Tutorial]({{site.baseurl}}/wiki/ScrollBar-Tutorial.html)
+上一篇：[CoolBar Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/CoolBar-Tutorial.html)
+下一篇：[ScrollBar Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/ScrollBar-Tutorial.html)

@@ -41,7 +41,7 @@ menu: wiki
 
 如图：
 
-![]({{site.baseurl}}/wiki/images/image_swt_list1.png)
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_list1.png)
 
 ***
 
@@ -108,12 +108,12 @@ _触发条件_：`当List中的选择项发生变化时，立即触发`。
 ***
 参考资料：
   * [List snippets](http://www.eclipse.org/swt/snippets/#list)
-  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置]({{site.baseurl}}/wiki/Common-Properties-Tutorial.html)
-  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器]({{site.baseurl}}/wiki/Layouts-Tutorial.html)
+  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置]({{site.baseurl}}/eclipse.tutorial/wiki/Common-Properties-Tutorial.html)
+  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器]({{site.baseurl}}/eclipse.tutorial/wiki/Layouts-Tutorial.html)
   * [SWT Example: ControlExample](http://www.eclipse.org/swt/examples.php)
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
 
-上一篇：[Combo Tutorial]({{site.baseurl}}/wiki/Combo-Tutorial.html)
-下一篇：[Scale Tutorial]({{site.baseurl}}/wiki/Scale-Tutorial.html)
+上一篇：[Combo Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Combo-Tutorial.html)
+下一篇：[Scale Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Scale-Tutorial.html)
