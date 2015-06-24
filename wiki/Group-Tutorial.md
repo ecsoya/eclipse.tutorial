@@ -5,7 +5,7 @@ wikiPageName: Group-Tutorial
 menu: wiki
 ---
 
-Group除了可以设置标题外，其它的属性和[Composite]({{site.baseurl}}/eclipse.tutorial/wiki/Composite-Tutorial.html)一样
+Group除了可以设置标题外，其它的属性和[Composite]({{site.baseurl}}/wiki/Composite-Tutorial.html)一样
 
 		Display display = new Display();
 		Shell shell = new Shell(display);
@@ -26,7 +26,7 @@ Group除了可以设置标题外，其它的属性和[Composite]({{site.baseurl}
 
 如图：
 
-![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_group.png)
+![]({{site.baseurl}}/wiki/images/image_swt_group.png)
 
 ***
 参考资料：
@@ -34,5 +34,5 @@ Group除了可以设置标题外，其它的属性和[Composite]({{site.baseurl}
 
 ***
 
-上一篇：[Canvas Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Canvas-Tutorial.html)
-下一篇：[TabFolder Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/TabFolder-Tutorial.html)
+上一篇：[Canvas Tutorial]({{site.baseurl}}/wiki/Canvas-Tutorial.html)
+下一篇：[TabFolder Tutorial]({{site.baseurl}}/wiki/TabFolder-Tutorial.html)

@@ -36,7 +36,7 @@ menu: wiki
 
 如图：
 
-![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_tabfolder.png)
+![]({{site.baseurl}}/wiki/images/image_swt_tabfolder.png)
 
 ### 另外：
 
@@ -50,5 +50,5 @@ menu: wiki
 
 ***
 
-上一篇：[Group Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Group-Tutorial.html)
-下一篇：[Shell Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Shell-Tutorial.html)
+上一篇：[Group Tutorial]({{site.baseurl}}/wiki/Group-Tutorial.html)
+下一篇：[Shell Tutorial]({{site.baseurl}}/wiki/Shell-Tutorial.html)

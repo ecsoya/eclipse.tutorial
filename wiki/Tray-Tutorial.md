@@ -5,7 +5,7 @@ wikiPageName: Tray-Tutorial
 menu: wiki
 ---
 
-`Tray`和`TrayItem`是指在任务栏上的能代表程序的图标，和前面提到的[TaskBar]({{site.baseurl}}/eclipse.tutorial/wiki/TaskBar-Tutorial.html)类似。比如我们常见的`QQ，Skype`等程序运行之后，在屏幕的右下角会有一个图标
+`Tray`和`TrayItem`是指在任务栏上的能代表程序的图标，和前面提到的[TaskBar]({{site.baseurl}}/wiki/TaskBar-Tutorial.html)类似。比如我们常见的`QQ，Skype`等程序运行之后，在屏幕的右下角会有一个图标
 
 先看一个示例吧：
 
@@ -100,5 +100,5 @@ menu: wiki
 
 ***
 
-上一篇：[ToolTip Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/ToolTip-Tutorial.html)
-下一篇：[Link Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Link-Tutorial.html)
+上一篇：[ToolTip Tutorial]({{site.baseurl}}/wiki/ToolTip-Tutorial.html)
+下一篇：[Link Tutorial]({{site.baseurl}}/wiki/Link-Tutorial.html)

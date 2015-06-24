@@ -5,7 +5,7 @@ wikiPageName: CoolBar-Tutorial
 menu: wiki
 ---
 
-`CoolBar`和[ToolBar]({{site.baseurl}}/eclipse.tutorial/wiki/ToolBar-Tutorial.html)有点类似，一般都是用在创建工具栏上，不过，`CoolBar`的功能更加丰富，`CoolItem`可以在`CoolBar`上面自由的拖拽，隐藏等等。它是由`org.eclipse.swt.widgets.CoolBar`和`org.eclipse.swt.widgets.CoolItem`实现的
+`CoolBar`和[ToolBar]({{site.baseurl}}/wiki/ToolBar-Tutorial.html)有点类似，一般都是用在创建工具栏上，不过，`CoolBar`的功能更加丰富，`CoolItem`可以在`CoolBar`上面自由的拖拽，隐藏等等。它是由`org.eclipse.swt.widgets.CoolBar`和`org.eclipse.swt.widgets.CoolItem`实现的
 
 我们先看一个简单的示例吧：
 
@@ -45,7 +45,7 @@ menu: wiki
 
 如图：
 
-![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_coolbar1.png)
+![]({{site.baseurl}}/wiki/images/image_swt_coolbar1.png)
 
 ### 要点
 
@@ -67,12 +67,12 @@ _**CoolItem**_
 ***
 参考资料：
   * [CoolBar snippets](http://www.eclipse.org/swt/snippets/#coolbar)
-  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置]({{site.baseurl}}/eclipse.tutorial/wiki/Common-Properties-Tutorial.html)
-  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器]({{site.baseurl}}/eclipse.tutorial/wiki/Layouts-Tutorial.html)
+  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置]({{site.baseurl}}/wiki/Common-Properties-Tutorial.html)
+  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器]({{site.baseurl}}/wiki/Layouts-Tutorial.html)
   * [SWT Example: ControlExample](http://www.eclipse.org/swt/examples.php)
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
 
-上一篇：[ToolBar Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/ToolBar-Tutorial.html)
-下一篇：[ProgressBar Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/ProgressBar-Tutorial.html)
+上一篇：[ToolBar Tutorial]({{site.baseurl}}/wiki/ToolBar-Tutorial.html)
+下一篇：[ProgressBar Tutorial]({{site.baseurl}}/wiki/ProgressBar-Tutorial.html)

@@ -5,7 +5,7 @@ wikiPageName: Sash-Tutorial
 menu: wiki
 ---
 
-`Sash`是一个可拖动的组件，也有水平的`（SWT.HORIZONTAL）`和垂直的`（SWT.VERTICAL）`两种类型。不过我们经常会用到另外一个基于Sash的组件[SashForm]({{site.baseurl}}/eclipse.tutorial/wiki/SashForm-Tutorial.html)
+`Sash`是一个可拖动的组件，也有水平的`（SWT.HORIZONTAL）`和垂直的`（SWT.VERTICAL）`两种类型。不过我们经常会用到另外一个基于Sash的组件[SashForm]({{site.baseurl}}/wiki/SashForm-Tutorial.html)
 
 我们还是先通过一个示例来认识一下它吧：
 
@@ -53,7 +53,7 @@ menu: wiki
 
 我们来看图：
 
-![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_sash.png)
+![]({{site.baseurl}}/wiki/images/image_swt_sash.png)
 
 图中所示的红色横条和灰色竖条就是`Sash`，他们是可以拖动的。
 
@@ -69,5 +69,5 @@ menu: wiki
 
 ***
 
-上一篇：[Menu Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Menu-Tutorial.html)
-下一篇：[ToolTip Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/ToolTip-Tutorial.html)
+上一篇：[Menu Tutorial]({{site.baseurl}}/wiki/Menu-Tutorial.html)
+下一篇：[ToolTip Tutorial]({{site.baseurl}}/wiki/ToolTip-Tutorial.html)

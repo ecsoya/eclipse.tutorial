@@ -81,11 +81,11 @@ menu: wiki
 
 如图一是`Shell`的菜单栏：
 
-![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_menu1.png)
+![]({{site.baseurl}}/wiki/images/image_swt_menu1.png)
 
 如图二是右键上下文菜单：
 
-![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_menu2.png)
+![]({{site.baseurl}}/wiki/images/image_swt_menu2.png)
 
 ### Menu
 
@@ -128,5 +128,5 @@ menu: wiki
 
 ***
 
-上一篇：[ExpandBar Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/ExpandBar-Tutorial.html)
-下一篇：[Sash Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Sash-Tutorial.html)
+上一篇：[ExpandBar Tutorial]({{site.baseurl}}/wiki/ExpandBar-Tutorial.html)
+下一篇：[Sash Tutorial]({{site.baseurl}}/wiki/Sash-Tutorial.html)

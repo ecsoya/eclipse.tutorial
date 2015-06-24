@@ -11,25 +11,25 @@ menu: wiki
 
     setBackground(color); 
 
-关于`Color`的详细定义，请参考[Resource Management]({{site.baseurl}}/eclipse.tutorial/wiki/Resource-Management-Tutorial.html)
+关于`Color`的详细定义，请参考[Resource Management]({{site.baseurl}}/wiki/Resource-Management-Tutorial.html)
 
 ### 2. 设置前景色（Foreground Color）
 
     setForeground(color);
 
-关于`Color`的详细定义，请参考[Resource Management]({{site.baseurl}}/eclipse.tutorial/wiki/Resource-Management-Tutorial.html)
+关于`Color`的详细定义，请参考[Resource Management]({{site.baseurl}}/wiki/Resource-Management-Tutorial.html)
 
 ### 3. 设置字体（Font）
 
     setFont(font);
 
-关于`Font`的详细定义，请参考[Resource Management]({{site.baseurl}}/eclipse.tutorial/wiki/Resource-Management-Tutorial.html)
+关于`Font`的详细定义，请参考[Resource Management]({{site.baseurl}}/wiki/Resource-Management-Tutorial.html)
 
 ### 4. 设置背景图片（Background Image）
 
     setBackgroundImage(image);
 
-关于`Image`的详细定义，请参考[Resource Management]({{site.baseurl}}/eclipse.tutorial/wiki/Resource-Management-Tutorial.html)
+关于`Image`的详细定义，请参考[Resource Management]({{site.baseurl}}/wiki/Resource-Management-Tutorial.html)
 
 ### 5. 设置可见性（Visible）
 
@@ -43,7 +43,7 @@ menu: wiki
 
     setMenu(menu);
 
-关于`Menu`的定义，请参考[Menu Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Menu-Tutorial.html)
+关于`Menu`的定义，请参考[Menu Tutorial]({{site.baseurl}}/wiki/Menu-Tutorial.html)
 
 ### 8. 设置方向（Orientation）
 
@@ -57,5 +57,5 @@ menu: wiki
 
 ***
 
-上一篇：[Dialog Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Dialog-Tutorial.html)
-下一篇：[Components Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Components-Tutorial.html)
+上一篇：[Dialog Tutorial]({{site.baseurl}}/wiki/Dialog-Tutorial.html)
+下一篇：[Components Tutorial]({{site.baseurl}}/wiki/Components-Tutorial.html)

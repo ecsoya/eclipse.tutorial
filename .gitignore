@@ -1,3 +1,16 @@
 /.project
 /_site/
 /_wiki/
+/org.ecsoya.eclipse.tutorial/
+/org.ecsoya.eclipse.tutorial.actions/
+/org.ecsoya.eclipse.tutorial.editor/
+/org.ecsoya.eclipse.tutorial.extension/
+/org.ecsoya.eclipse.tutorial.extensionpoints/
+/org.ecsoya.eclipse.tutorial.fragment/
+/org.ecsoya.eclipse.tutorial.gef/
+/org.ecsoya.eclipse.tutorial.jface/
+/org.ecsoya.eclipse.tutorial.jface_ch/
+/org.ecsoya.eclipse.tutorial.preference/
+/org.ecsoya.eclipse.tutorial.rcp/
+/org.ecsoya.eclipse.tutorial.swt/
+/org.ecsoya.eclipse.tutorial.views/

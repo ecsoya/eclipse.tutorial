@@ -24,7 +24,7 @@ menu: wiki
 
 参数设置效果：
 
-![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_rowlayout.gif)
+![]({{site.baseurl}}/wiki/images/image_swt_rowlayout.gif)
 
 ***
 在前面的章节有提到，子控件可以设置LayoutData来自定义一些属性，现在我们就来看看和RowLayout配套使用的org.eclipse.swt.layout.RowData吧。

@@ -5,7 +5,7 @@ wikiPageName: Spinner-Tutorial
 menu: wiki
 ---
 
-Spinner和前两篇中的[Scale]({{site.baseurl}}/eclipse.tutorial/wiki/Scale-Tutorial)和[Slider]({{site.baseurl}}/wiki/Slider-Tutorial.html)的用法也非常相似，不过它可以用来设置一些复杂的数值（如float型的或是double型的）
+Spinner和前两篇中的[Scale]({{site.baseurl}}/wiki/Scale-Tutorial)和[Slider]({{site.baseurl}}/wiki/Slider-Tutorial.html)的用法也非常相似，不过它可以用来设置一些复杂的数值（如float型的或是double型的）
 
 		Display display = new Display();
 		Shell shell = new Shell(display);
@@ -32,7 +32,7 @@ Spinner和前两篇中的[Scale]({{site.baseurl}}/eclipse.tutorial/wiki/Scale-Tu
 
 如图：
 
-![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_spinner.png)
+![]({{site.baseurl}}/wiki/images/image_swt_spinner.png)
 
 ***
 ### 需要注意的地方：
@@ -46,12 +46,12 @@ Spinner和前两篇中的[Scale]({{site.baseurl}}/eclipse.tutorial/wiki/Scale-Tu
 ***
 参考资料：
   * [Spinner snippets](http://www.eclipse.org/swt/snippets/#spinner)
-  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置]({{site.baseurl}}/eclipse.tutorial/wiki/Common-Properties-Tutorial.html)
-  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器]({{site.baseurl}}/eclipse.tutorial/wiki/Layouts-Tutorial.html)
+  * 如果想了解更多的关于设置颜色，字体等其它属性的相关内容，请移步至[控件的通用设置]({{site.baseurl}}/wiki/Common-Properties-Tutorial.html)
+  * 如果想了解更多的关于`Layout`和`LayoutData`的相关内容，请移步至[布局管理器]({{site.baseurl}}/wiki/Layouts-Tutorial.html)
   * [SWT Example: ControlExample](http://www.eclipse.org/swt/examples.php)
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
 
-上一篇：[Slider Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Slider-Tutorial.html)
-下一篇：[DateTime Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/DateTime-Tutorial.html)
+上一篇：[Slider Tutorial]({{site.baseurl}}/wiki/Slider-Tutorial.html)
+下一篇：[DateTime Tutorial]({{site.baseurl}}/wiki/DateTime-Tutorial.html)

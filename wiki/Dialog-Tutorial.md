@@ -5,7 +5,7 @@ wikiPageName: Dialog-Tutorial
 menu: wiki
 ---
 
-对话框`（Dialog）`是我们经常用到的一个组件，其实它跟`Shell`很类似，在这里只讲几个经常用到的系统对话框，至于怎么自己实现对话框，请参考后面的文章[JFace Dialogs]({{site.baseurl}}/eclipse.tutorial/wiki/JFace-Dialogs-Tutorial.html)
+对话框`（Dialog）`是我们经常用到的一个组件，其实它跟`Shell`很类似，在这里只讲几个经常用到的系统对话框，至于怎么自己实现对话框，请参考后面的文章[JFace Dialogs]({{site.baseurl}}/wiki/JFace-Dialogs-Tutorial.html)
 
 ### 1. ColorDialog
 
@@ -17,7 +17,7 @@ menu: wiki
 
 如图：
 
-![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_dialog_color.png)
+![]({{site.baseurl}}/wiki/images/image_swt_dialog_color.png)
 
 
 ### 2. DirectoryDialog
@@ -32,7 +32,7 @@ menu: wiki
 
 如图：
 
-![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_dialog_directory.png)
+![]({{site.baseurl}}/wiki/images/image_swt_dialog_directory.png)
 
 
 ### 3. FileDialog
@@ -65,7 +65,7 @@ menu: wiki
 
 如图：
 
-![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_dialog_font.png)
+![]({{site.baseurl}}/wiki/images/image_swt_dialog_font.png)
 
 
 ### 5. PrintDialog
@@ -78,7 +78,7 @@ menu: wiki
 		dialog.setPrintToFile(true);
 		dialog.open();
 
-![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_dialog_print.png)
+![]({{site.baseurl}}/wiki/images/image_swt_dialog_print.png)
 
 ### 6. MessageBox
 
@@ -92,7 +92,7 @@ menu: wiki
 
 如图:
 
-![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_dialog_messagebox.png)
+![]({{site.baseurl}}/wiki/images/image_swt_dialog_messagebox.png)
 
 ***
 参考资料：
@@ -101,5 +101,5 @@ menu: wiki
 
 ***
 
-上一篇：[Browser Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Browser-Tutorial.html)
-下一篇：[Common Properties Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Common-Properties-Tutorial.html)
+上一篇：[Browser Tutorial]({{site.baseurl}}/wiki/Browser-Tutorial.html)
+下一篇：[Common Properties Tutorial]({{site.baseurl}}/wiki/Common-Properties-Tutorial.html)

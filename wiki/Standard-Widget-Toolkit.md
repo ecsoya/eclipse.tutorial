@@ -38,7 +38,7 @@ SWT最大的特点是它不但能运行在多种操作系统（Windows， Mac OS
 
 运行起来的效果如下：
 
-![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_helloworld.png)
+![]({{site.baseurl}}/wiki/images/image_swt_helloworld.png)
 
 我们来简单看一下这个例子，一个窗口，标题为“Hello World”，大小为300x200.
 再来看一下代码，总共有两个对象，`Display`和`Shell`。然后对`Shell`进行了几个操作：
@@ -48,7 +48,7 @@ SWT最大的特点是它不但能运行在多种操作系统（Windows， Mac OS
         shell.open();//打开窗口
 
 
-### 2. [Display]({{site.baseurl}}/eclipse.tutorial/wiki/Display-Tutorial)和 [Shell]({{site.baseurl}}/wiki/Shell-Tutorial.html)
+### 2. [Display]({{site.baseurl}}/wiki/Display-Tutorial)和 [Shell]({{site.baseurl}}/wiki/Shell-Tutorial.html)
 
 `org.eclipse.swt.widgets.Display`和`org.eclipse.swt.widgets.Shell`是SWT应用程序中最关键的两个组件。通过上面的例子应该清楚，`Shell`就相当于一个窗口。而`Display`呢，是用来管理SWT应用程序的最核心组件，所有的事件的监听，字体，颜色，图片等资源的创建和销毁以及多线程的处理，UI线程和非UI线程的交互等等，都离不开`Display`。
 
@@ -97,4 +97,4 @@ So easy? 没错，赶紧试试上面的Hello World吧！
 
 ***
 
-下一篇：[SWT Widgets]({{site.baseurl}}/eclipse.tutorial/wiki/SWT-Widgets.html)
+下一篇：[SWT Widgets]({{site.baseurl}}/wiki/SWT-Widgets.html)
