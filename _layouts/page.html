@@ -11,8 +11,8 @@ layout: default
     <link rel="stylesheet" href="../stylesheets/core.css" media="screen">
     <link rel="stylesheet" href="../stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
     <link rel="stylesheet" href="../stylesheets/pygment_trac.css">
-	<link rel="stylesheet" href="../stylesheets/pageguide.min.css">
-	<script type="text/javascript" src="../javascripts/pageguide.min.js"></script>
+	<link rel="stylesheet" href="../stylesheets/toc.css">
+
     <script type="text/javascript" src="../javascripts/modernizr.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="../javascripts/headsmart.min.js"></script>
@@ -20,11 +20,6 @@ layout: default
       $(document).ready(function () {
         $('#main_content').headsmart()
       })
-    </script>
-    <script type="text/javascript">
-        jQuery(document).ready(function() {
-            var pageguide = tl.pg.init();
-        });
     </script>
     <title>{{title}}</title>
   </head>
@@ -57,30 +52,7 @@ layout: default
       <section id="main_content">
         <h2 class="header-level-1"> {{title}} </h2>
       
-      	{{content}}
-      
-      <ul id="tlyPageGuide" data-tourtitle="REPLACE THIS WITH A TITLE">
-  <li class="tlypageguide_left" data-tourtarget=".first_element_to_target">
-    <div>
-      Here is the first item description. The number will appear to the left of the element.
-    </div>
-  </li>
-  <li class="tlypageguide_right" data-tourtarget="#second_element_to_target">
-    <div>
-      Here is the second item description. The number will appear to the right of the element.
-    </div>
-  </li>
-  <li class="tlypageguide_top" data-tourtarget=".third_element_to_target > div.is_here">
-    <div>
-      Here is the third item description. The number will appear above the element.
-    </div>
-  </li>
-  <li class="tlypageguide_bottom" data-tourtarget="#fourth_element_to_target">
-    <div>
-      Here is the fourth item description. The number will appear below the element.
-    </div>
-  </li>
-</ul>
+      	{{content | toc_generate }}
       
       	<hr>
       	
