@@ -173,8 +173,11 @@ command示例：
 >	    name="Sample Handler">
 >        </command>
 >     </extension>
+>
 
 handler示例：
+
+>
 >    //定义执行command的具体的handler
 >    <extension point="org.eclipse.ui.handlers">
 >        <handler 
