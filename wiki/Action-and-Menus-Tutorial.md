@@ -22,7 +22,7 @@ menu: wiki
 
 而所有的这些扩展都是通过实现扩展点：`org.eclipse.ui.menus` 来实现的。
 
-### 第一步：WHERE？
+### WHERE？
 
 我们想要扩展Menu或者ToolBar，首先第一步就是定义在哪插入我们的Menu或是ToolBar。
 
@@ -46,7 +46,7 @@ menu: wiki
 	*  **placement**: `before`, `after` 或者 `endof`。
  	*  **id**: 一个已经定义好的菜单的ID。
 
-### 第二步：HOW？
+### HOW？
 
 依然是在`menuContribution`中，我们可以简单的将它里面的元素分成两类：
 
