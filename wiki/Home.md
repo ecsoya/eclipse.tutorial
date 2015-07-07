@@ -47,6 +47,8 @@ Eclipse3.x及以下的版本中界面主要是通过SWT和JFace来实现的，Ec
 
 [Standard Widget Toolkit]({{site.baseurl}}/eclipse.tutorial/wiki/Standard-Widget-Toolkit.html)
 
+[Table of Contents]({{site.baseurl}}/eclipse.tutorial/wiki/TOC.html)
+
 ***
 
 参考资料：
