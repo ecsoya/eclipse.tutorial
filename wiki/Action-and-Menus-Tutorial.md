@@ -41,3 +41,81 @@ menu: wiki
 - **Query**: `<placement>=<id>`
  * **placement**: `before`, `after` 或者 `endof`。
  * **id**: 一个已经定义好的菜单的ID。
+
+### 第二步：怎么定义？
+
+依然是在`menuContribution`中，我们可以简单的将它里面的元素分成两类：
+
+* 一类是分组元素：`menu`，`toolbar`和`separator`；
+* 一类是具体的Action的定义元素：`command`，`control`和`dynamic`。
+
+如何使用command来定义菜单？我们可以看一段示例：
+
+	<extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu?after=file">
+         <menu
+               label="Ecsoya">
+            <command
+                  commandId="org.eclipse.ui.edit.copy"
+                  style="push">
+            </command>
+            <command
+                  commandId="org.eclipse.ui.edit.paste"
+                  style="push">
+            </command>
+            <separator
+                  name="edit"
+                  visible="true">
+            </separator>
+            <command
+                  commandId="org.eclipse.ui.edit.delete"
+                  style="push">
+            </command>
+         </menu>
+      </menuContribution>
+    </extension>
+
+如下图，我们通过command定义了一个菜单：
+
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_actions_menubar.jpg)
+
+关于使用control，我们也可以参考以下示例：
+
+	//Extension Point
+    <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
+         <toolbar
+               id="org.ecsoya.eclipse.tutorial.actions.toolbar">
+            <control
+                  class="org.ecsoya.eclipse.tutorial.actions.SampleToolBarContribution">
+            </control>
+         </toolbar>
+      </menuContribution>
+    </extension>
+	
+	//Java
+    public class SampleToolBarContribution extends WorkbenchWindowControlContribution {
+    	public SampleToolBarContribution() {
+    	}
+    	public SampleToolBarContribution(String id) {
+       	 super(id);
+    	}
+    	protected Control createControl(Composite parent) {
+      	  Combo combo = new Combo(parent, SWT.READ_ONLY);
+      	  for (int i = 0; i < 5; i++) {
+           	 combo.add("Ecsoya sample item " + i);
+        	}
+        	combo.select(2);
+        	return combo;
+    	}
+    }
+
+如下图，我们通过control定义了一个下拉框工具条：
+
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_actions_toolbar.jpg)
+
