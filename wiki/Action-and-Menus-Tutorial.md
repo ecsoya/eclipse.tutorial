@@ -162,24 +162,22 @@ menu: wiki
 1. org.eclipse.ui.commands
 2. org.eclipse.ui.handlers
 3. org.eclipse.core.expressions.definitions
-> 
-> 
+
+示例：
+>
 >     //定义command
 >     <extension point="org.eclipse.ui.commands">
->       <command 
->           defaultHandler="org.ecsoya.eclipse.tutorial.actions.SampleHandler"
->           id="org.ecsoya.eclipse.tutorial.actions.command"
->           name="Sample Handler">
->       </command>
+>        <command 
+>	    defaultHandler="org.ecsoya.eclipse.tutorial.actions.SampleHandler"
+>	    id="org.ecsoya.eclipse.tutorial.actions.command"
+>	    name="Sample Handler">
+>        </command>
 >     </extension>
->  
-
-
-> 	 //定义执行command的具体的handler
-> 	 <extension point="org.eclipse.ui.handlers">
->         <handler 
->     	   class="org.ecsoya.eclipse.tutorial.actions.SampleHandler"
->     	   commandId="org.ecsoya.eclipse.tutorial.actions.command"
->         </handler>
->      </extension>
- 
+>    //定义执行command的具体的handler
+>    <extension point="org.eclipse.ui.handlers">
+>        <handler 
+>            class="org.ecsoya.eclipse.tutorial.actions.SampleHandler"
+>            commandId="org.ecsoya.eclipse.tutorial.actions.command"
+>        </handler>
+>    </extension>
+>
