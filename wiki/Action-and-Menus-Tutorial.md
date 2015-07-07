@@ -177,14 +177,12 @@ command示例：
 
 handler示例：
 
->
->    //定义执行command的具体的handler
->    <extension point="org.eclipse.ui.handlers">
->        <handler 
->            class="org.ecsoya.eclipse.tutorial.actions.SampleHandler"
->            commandId="org.ecsoya.eclipse.tutorial.actions.command"
->        </handler>
->    </extension>
->
+    //定义执行command的具体的handler
+    <extension point="org.eclipse.ui.handlers">
+        <handler 
+            class="org.ecsoya.eclipse.tutorial.actions.SampleHandler"
+            commandId="org.ecsoya.eclipse.tutorial.actions.command"
+        </handler>
+    </extension>
 
 Why Not？
