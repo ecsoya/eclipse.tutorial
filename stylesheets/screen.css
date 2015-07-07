@@ -113,9 +113,9 @@ header, footer, section {
 /* STYLES */
 
 div.shell {
-	display: block;
-	width: auto;
-	margin: 0 auto;
+  display: block;
+  width: 670px;
+  margin: 0 auto;
 }
 
 a#forkme_banner {
