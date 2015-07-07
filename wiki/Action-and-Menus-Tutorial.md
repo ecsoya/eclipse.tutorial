@@ -185,4 +185,4 @@ handler示例：
         </handler>
     </extension>
 
-Why Not？
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/index.html)
