@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Home
+title: Eclipse Plug-in Development
 wikiPageName: Home
 menu: wiki
 ---
-
-## Eclipse插件开发
 
 ### 1. 什么是Eclipse插件？
 Eclipse是一款非常优秀的IDE，更多的我们是用来开发Java程序。当然，也有人用来开发Web，C和C++等相关的程序。

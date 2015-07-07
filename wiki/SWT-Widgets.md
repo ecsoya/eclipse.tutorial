@@ -5,8 +5,6 @@ wikiPageName: SWT-Widgets
 menu: wiki
 ---
 
-## Standard Widget Toolkits
-
 SWT中包含了很多常用的控件，如`Button`，`Text`，`Menu`等等。你可以从`org.eclipse.swt.widgets`或`org.eclipse.swt.custom`包中找到他们。通常情况下，控件都继承了`Widget`类或是`Control`类，由于SWT是调用JNI实现的，很多基础控件类都是不允许被继承重写的。下面这张图是从[SWT官网](http://www.eclipse.org/swt/widgets/)上截取的图片，你可以预览一下这些基本控件。
 
 ![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_swt_widgets.png)

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Action and Menus Tutorial
-wikiPageName: Action-and-Menus-Tutorial
+title: Table of Contents
+wikiPageName: toc
 menu: wiki
 ---
 [Eclipse Plug-in Development Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki)
