@@ -4,7 +4,7 @@ title: Table of Contents
 wikiPageName: toc
 menu: wiki
 ---
-[Eclipse Plug-in Development Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki)
+[Eclipse Plug-in Development Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Home)
 
 * [Standard Widget Toolkit Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Standard-Widget-Toolkit-(SWT))
     * [Widgets Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/SWT-Widgets)
