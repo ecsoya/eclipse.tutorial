@@ -57,6 +57,6 @@ menu: wiki
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
-
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
 上一篇：[CoolBar Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/CoolBar-Tutorial.html)
 下一篇：[ScrollBar Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/ScrollBar-Tutorial.html)

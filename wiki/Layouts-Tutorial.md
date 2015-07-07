@@ -47,3 +47,6 @@ menu: wiki
 参考资料：
 
 * [Understanding Layouts](http://www.eclipse.org/articles/article.php?file=Article-Understanding-Layouts/index.html)
+
+***
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)

@@ -138,6 +138,6 @@ Label提供了三种对齐的方式：左对齐（`SWT.LEFT`）,居中对齐（`
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
-
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
 上一篇：[Widgets Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/SWT-Widgets.html)
 下一篇：[Button Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Button-Tutorial.html)

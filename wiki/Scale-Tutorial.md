@@ -90,7 +90,7 @@ menu: wiki
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
-
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
 上一篇：[Combo Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Combo-Tutorial.html)
 下一篇：[Slider Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Slider-Tutorial.html)
 

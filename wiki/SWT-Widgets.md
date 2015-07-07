@@ -73,6 +73,6 @@ SWT中所有的控件都可以添加事件监听，比如鼠标点击，键盘�
 更多内容请看[Layouts Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Layouts-Tutorial.html)
 
 ***
-
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
 上一篇：[SWT]({{site.baseurl}}/eclipse.tutorial/wiki/Standard-Widget-Toolkit.html)
 下一篇：[Label Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Label-Tutorial.html)

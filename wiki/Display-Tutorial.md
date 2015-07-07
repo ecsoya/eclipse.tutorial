@@ -17,3 +17,7 @@ Some SWT API methods (notably, most of the public methods in Widget and its subc
 The thread is not allowed to construct other Displays until that display has been disposed. (Note that, this is in addition to the restriction mentioned above concerning platform support for multiple displays. Thus, the only way to have multiple simultaneously active displays, even on platforms which support it, is to have multiple threads.)
 Enforcing these attributes allows SWT to be implemented directly on the underlying operating system's event model. This has numerous benefits including smaller footprint, better use of resources, safer memory management, clearer program logic, better performance, and fewer overall operating system threads required. The down side however, is that care must be taken (only) when constructing multi-threaded applications to use the inter-thread communication mechanisms which this class provides when required.
 All SWT API methods which may only be called from the user-interface thread are distinguished in their documentation by indicating that they throw the "ERROR_THREAD_INVALID_ACCESS" SWT exception
+
+***
+
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)

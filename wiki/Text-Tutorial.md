@@ -215,6 +215,6 @@ _更多示例_：
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
-
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
 上一篇：[Button Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Button-Tutorial.html)
 下一篇：[Combo Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Combo-Tutorial.html)

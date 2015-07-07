@@ -114,6 +114,6 @@ _触发条件_：`当List中的选择项发生变化时，立即触发`。
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
-
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
 上一篇：[Combo Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Combo-Tutorial.html)
 下一篇：[Scale Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Scale-Tutorial.html)

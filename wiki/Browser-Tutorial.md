@@ -57,5 +57,6 @@ menu: wiki
 
 ***
 
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
 上一篇：[Link Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Link-Tutorial.html)
 下一篇：[Dialog Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Browser-Tutorial.html)

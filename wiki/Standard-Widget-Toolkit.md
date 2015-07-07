@@ -96,5 +96,5 @@ So easy? 没错，赶紧试试上面的Hello World吧！
 * [The SWT FAQ](https://www.eclipse.org/swt/faq.php)
 
 ***
-
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
 下一篇：[SWT Widgets]({{site.baseurl}}/eclipse.tutorial/wiki/SWT-Widgets.html)

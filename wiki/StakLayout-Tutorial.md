@@ -5,4 +5,5 @@ wikiPageName: StakLayout-Tutorial
 menu: wiki
 ---
 
-StakLayout 
+***
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)

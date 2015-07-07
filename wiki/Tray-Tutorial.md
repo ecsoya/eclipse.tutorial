@@ -99,6 +99,6 @@ menu: wiki
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
-
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
 上一篇：[ToolTip Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/ToolTip-Tutorial.html)
 下一篇：[Link Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Link-Tutorial.html)

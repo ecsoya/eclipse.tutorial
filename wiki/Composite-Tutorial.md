@@ -19,5 +19,6 @@ menu: wiki
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
 
 下一篇：[Canvas Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Canvas-Tutorial.html)

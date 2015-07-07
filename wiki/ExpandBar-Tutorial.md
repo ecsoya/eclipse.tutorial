@@ -85,6 +85,6 @@ _**ExpandBar**_
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
-
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
 上一篇：[TaskBar Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/TaskBar-Tutorial.html)
 下一篇：[Menu Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Menu-Tutorial.html)

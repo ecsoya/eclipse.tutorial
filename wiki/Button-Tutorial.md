@@ -104,6 +104,7 @@ menu: wiki
 
 ***
 
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
 上一篇：[Label Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Label-Tutorial.html)
 下一篇：[Text Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Text-Tutorial.html)
    

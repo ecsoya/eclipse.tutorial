@@ -52,6 +52,6 @@ Spinner和前两篇中的[Scale]({{site.baseurl}}/eclipse.tutorial/wiki/Scale-Tu
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
-
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
 上一篇：[Slider Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Slider-Tutorial.html)
 下一篇：[DateTime Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/DateTime-Tutorial.html)

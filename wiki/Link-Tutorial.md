@@ -54,6 +54,6 @@ menu: wiki
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
-
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
 上一篇：[Tray Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Tray-Tutorial.html)
 下一篇：[Browser Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Browser-Tutorial.html)

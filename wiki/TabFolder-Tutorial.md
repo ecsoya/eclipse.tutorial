@@ -49,6 +49,6 @@ menu: wiki
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
-
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
 上一篇：[Group Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Group-Tutorial.html)
 下一篇：[Shell Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Shell-Tutorial.html)

@@ -31,3 +31,6 @@ menu: wiki
   * _**height**_：`指定控件的高度值，在Layout的时候会根据它来计算控件的大小（即调用computeSize(width, height)），默认为SWT.DEFAULT。`
   * _**width**_：`指定控件的宽度值，在Layout的时候会根据它来计算控件的大小（即调用computeSize(width, height)），默认为SWT.DEFAULT。`
   * _**exclude**_：`当设置为true的时候，Layout会忽略它的存在，不给它分配空间。默认为false。`
+
+***
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)

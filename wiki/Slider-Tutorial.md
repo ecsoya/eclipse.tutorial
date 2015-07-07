@@ -48,7 +48,7 @@ menu: wiki
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
-
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
 上一篇：[Scale Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Scale-Tutorial.html)
 下一篇：[Spinner Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Spinner-Tutorial.html)
 

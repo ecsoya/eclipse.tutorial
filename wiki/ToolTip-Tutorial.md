@@ -141,6 +141,6 @@ menu: wiki
   * [Sample code and further information](http://www.eclipse.org/swt/)
 
 ***
-
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
 上一篇：[Sash Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Sash-Tutorial.html)
 下一篇：[Tray Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/Tray-Tutorial.html)
