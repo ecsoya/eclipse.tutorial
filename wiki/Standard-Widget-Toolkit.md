@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Standard Widget Toolkit (SWT)
+title: Standard Widget Toolkit
 wikiPageName: Standard-Widget-Toolkit-(SWT)
 menu: wiki
 ---
