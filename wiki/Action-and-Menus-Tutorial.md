@@ -36,11 +36,12 @@ menu: wiki
 
 其实，关于`locationURI`的定义，有着一定的规则：`[Schema]:[id](?[Query])`
 
-- **Schema**: `menu`, `popup` 或者 `toolbar`。
-- **Id**: 视图或编辑器的ID，或者是一个已经定义好的菜单的ID。
-- **Query**: `<placement>=<id>`
- * **placement**: `before`, `after` 或者 `endof`。
- * **id**: 一个已经定义好的菜单的ID。
+* **Schema**: `menu`, `popup` 或者 `toolbar`。
+* **Id**: 视图或编辑器的ID，或者是一个已经定义好的菜单的ID。
+* **Query**: `<placement>=<id>`
+
+	*  **placement**: `before`, `after` 或者 `endof`。
+ 	*  **id**: 一个已经定义好的菜单的ID。
 
 ### 第二步：怎么定义？
 
@@ -79,7 +80,7 @@ menu: wiki
 
 如下图，我们通过command定义了一个菜单：
 
-![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_actions_menubar.jpg)
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_actions_menubar.png)
 
 关于使用control，我们也可以参考以下示例：
 
@@ -117,5 +118,5 @@ menu: wiki
 
 如下图，我们通过control定义了一个下拉框工具条：
 
-![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_actions_toolbar.jpg)
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_actions_toolbar.png)
 
