@@ -163,7 +163,7 @@ menu: wiki
 2. org.eclipse.ui.handlers
 3. org.eclipse.core.expressions.definitions
 
-示例：
+command示例：
 >
 >     //定义command
 >     <extension point="org.eclipse.ui.commands">
@@ -173,6 +173,8 @@ menu: wiki
 >	    name="Sample Handler">
 >        </command>
 >     </extension>
+
+handler示例：
 >    //定义执行command的具体的handler
 >    <extension point="org.eclipse.ui.handlers">
 >        <handler 
