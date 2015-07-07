@@ -13,6 +13,9 @@ menu: wiki
 * 视图工具栏
 * 右键菜单
 
+> 你可能会问，为什么视图的菜单和工具栏能扩展，为什么不能扩展编辑器的呢？
+> 其实编辑器是共享eclipse主菜单和工具栏的，具体的实现方法可以参考editor的contributorClass定义以及IEditorActionBarContributor。 
+
 如图：
 
 ![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_actions_overview.jpg)
@@ -120,3 +123,62 @@ menu: wiki
 
 ![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_actions_toolbar.png)
 
+### 扩展视图菜单/工具栏需要注意的问题
+
+1. 一般情况下，视图的ID可能就是你要找的插入的菜单的ID。
+2. 如果某个视图在定义的时候，没有注册菜单的ID，你就无法去扩展。
+3. 相应的，如果你自己实现了一个视图，想要让别人来扩展右键菜单的时候，你必须要注册一个全局的菜单：
+
+如下面的示例：
+
+	String id = "org.ecsoya.eclipse.tutorials.editor.OutlineMenu";
+	MenuManager manager = new MenuManager(id);
+	manager.add(new Action("Ecsoya") {
+	});
+	manager.add(new GroupMarker(IWorkbenchActionConstants.MB_ADDITIONS));
+	Menu menu = manager.createContextMenu(control);
+	control.setMenu(menu);
+
+	getSite().registerContextMenu(id, manager, selectionProvider);
+ 
+
+### 工具类
+
+1. org.eclipse.ui.menus.MenuUtils
+2. org.eclipse.ui.IWorkbenchActionConstants
+
+### 忘掉吧！
+
+在很久很久以前，我们是用一下扩展点来实现菜单的工具栏的扩展的
+
+1. org.eclipse.ui.actionSets
+2. org.eclipse.ui.viewActions  
+3. org.eclipse.ui.editorActions 
+4. org.eclipse.ui.popupMenus - viewerContribution 
+5. org.eclipse.ui.popupMenus - objectContribution
+
+### 你可能需要了解的
+
+1. org.eclipse.ui.commands
+2. org.eclipse.ui.handlers
+3. org.eclipse.core.expressions.definitions
+
+	//定义command
+	<extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="org.ecsoya.eclipse.tutorial.actions.SampleHandler"
+            id="org.ecsoya.eclipse.tutorial.actions.command"
+            name="Sample Handler">
+      </command>
+	</extension>
+
+	//定义执行command的具体的handler
+	<extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="org.ecsoya.eclipse.tutorial.actions.SampleHandler"
+            commandId="org.ecsoya.eclipse.tutorial.actions.command">
+      </handler>
+	</extension>
+ 
