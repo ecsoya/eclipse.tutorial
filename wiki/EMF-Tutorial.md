@@ -64,5 +64,27 @@ EAttribute和EReference统称为EStructuredFeature，在定义它们的时候，
 * **unique**：在（0..*）的属性中，决定能不能添加重复的值。
 
 
+### EMF模型（genmodel）
+
+EMF模型是通过映射ecore模型产生的用来生成Java代码的模型，通常EMF模型的生成都是自动完成的，我们只是简单的说一下一些基本配置信息。
+
+首先，EMF模型能够生成四种类型的代码：
+
+* Core：模型的Java代码。
+* Edit：支持模型编辑的Java代码。
+* Editor：支持模型编辑的编辑器的Java代码。
+* Test：支持模型测试的Java代码。
+
+#### 常用属性配置
+
+1. Base Package：生成Java代码使得基础包名。
+2. Resource Type：模型存储的类型：None，Basic，XML和XMI。
+
+
+### 参考资料
+
+1. [FeatureMap](http://ecsoya.github.io/eclipse/2015/07/03/emf-featuremaps.html)
+2. [Eclipse Modeling Framework](http://www.eclipse.org/modeling/emf/)
+
 ***
 [Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
