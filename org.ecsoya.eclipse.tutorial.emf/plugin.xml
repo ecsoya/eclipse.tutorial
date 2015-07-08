@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated library -->
+      <package
+            uri="http://ecsoya/eclipse/tutorial/library"
+            class="org.ecsoya.eclipse.tutorial.library.LibraryPackage"
+            genModel="model/library.genmodel"/>
+   </extension>
+
+</plugin>
