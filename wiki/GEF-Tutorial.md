@@ -31,4 +31,4 @@ GEF的核心是一个基于Draw2d的MVC架构，旨在构建基于模型的图�
 Zest旨在构建基于Draw2d的图形化视图。 
 
 ***
-[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/) 下一篇：[GEF Editor Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/GEF-Editor-Tutorial)
