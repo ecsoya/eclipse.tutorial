@@ -5,18 +5,31 @@ wikiPageName: Display-Tutorial
 menu: wiki
 ---
 
-Instances of this class are responsible for managing the connection between SWT and the underlying operating system. Their most important function is to implement the SWT event loop in terms of the platform event model. They also provide various methods for accessing information about the operating system, and have overall control over the operating system resources which SWT allocates.
+### 简介
+Display是SWT用来连接底层操作系统的一个非常重要的组件。通常，它也负责UI界面同底层操作系统的交互，比如监听操作系统的键盘，鼠标等的事件，反馈等等。
 
-Applications which are built with SWT will almost always require only a single display. In particular, some platforms which SWT supports will not allow more than one active display. In other words, some platforms do not support creating a new display if one already exists that has not been sent the dispose() message.
+在SWT中，很多系统都只支持一个Display的实例，也就是说在一个Display没有调用dispose()方法销毁之前，是不允许创建第二个Display的。
 
-In SWT, the thread which creates a Display instance is distinguished as the user-interface thread for that display.
+### UI Thread
 
-The user-interface thread for a particular display has the following special attributes:
-The event loop for that display must be run from the thread.
-Some SWT API methods (notably, most of the public methods in Widget and its subclasses), may only be called from the thread. (To support multi-threaded user-interface applications, class Display provides inter-thread communication methods which allow threads other than the user-interface thread to request that it perform operations on their behalf.)
-The thread is not allowed to construct other Displays until that display has been disposed. (Note that, this is in addition to the restriction mentioned above concerning platform support for multiple displays. Thus, the only way to have multiple simultaneously active displays, even on platforms which support it, is to have multiple threads.)
-Enforcing these attributes allows SWT to be implemented directly on the underlying operating system's event model. This has numerous benefits including smaller footprint, better use of resources, safer memory management, clearer program logic, better performance, and fewer overall operating system threads required. The down side however, is that care must be taken (only) when constructing multi-threaded applications to use the inter-thread communication mechanisms which this class provides when required.
-All SWT API methods which may only be called from the user-interface thread are distinguished in their documentation by indicating that they throw the "ERROR_THREAD_INVALID_ACCESS" SWT exception
+在SWT中，用来创建Display的线程（Thread）被称为UI线程（UI thread）。
+所有的有关UI界面的操作，都必须在UI线程中完成，否则会报出“*ERROR_THREAD_INVALID_ACCESS*”的异常。
+
+在非UI线程中，可以通过以下方法调用UI线程：
+
+* **asyncExec (Runnable runnable)**：异步执行，和其它的进程并行执行。
+* **syncExec (Runnable runnable)**：同步执行，等其它的进程执行完之后，顺序执行。
+* **timerExec (int milliseconds, Runnable runnable)**：延迟执行。
+
+### Display调取系统资源
+
+* Display.getSystemColor()
+* Display.getSystemFont()
+* Display.getSystemCursor()
+* Display.getSystemImage()
+* Display.getSystemTaskBar()
+* Display.getSystemTray()
+
 
 ***
 
