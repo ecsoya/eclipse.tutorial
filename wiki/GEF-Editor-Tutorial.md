@@ -35,6 +35,9 @@ GEF中三种默认的编辑器：
 	* Command是所有编辑实现过程。
 5. **Palette**：工具条，包含选择，创建节点和创建连线等。
 
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/gef_palette.gif)
+
+
 ### 示例
 
 1. 创建一个GraphicalEditor的子类。
