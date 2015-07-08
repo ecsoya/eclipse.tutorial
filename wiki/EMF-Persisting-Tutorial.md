@@ -5,7 +5,7 @@ wikiPageName: EMF-Persisting-Tutorial
 menu: wiki
 ---
 
-### 使用EMF生成的Java代码
+### Java
 
 通常情况下，EMF生成的代码会有一个Factory类，用来创建不同的模型。
 

@@ -77,8 +77,41 @@ EMF模型是通过映射ecore模型产生的用来生成Java代码的模型，�
 
 #### 常用属性配置
 
-1. Base Package：生成Java代码使得基础包名。
+1. Base Package：生成Java代码时的基础包名。
 2. Resource Type：模型存储的类型：None，Basic，XML和XMI。
+
+### Demo
+
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/emf_demo.gif)
+
+	<?xml version="1.0" encoding="UTF-8"?>
+	<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+		name="library" nsURI="http://ecsoya/eclipse/tutorial/library" nsPrefix="lib">
+		<eClassifiers xsi:type="ecore:EClass" name="Library">
+			<eStructuralFeatures xsi:type="ecore:EAttribute"
+				name="name"
+				eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" />
+			<eStructuralFeatures xsi:type="ecore:EReference"
+				name="books" upperBound="-1" eType="#//Book" containment="true" />
+		</eClassifiers>
+		<eClassifiers xsi:type="ecore:EClass" name="Book">
+			<eStructuralFeatures xsi:type="ecore:EAttribute"
+				name="title"
+				eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" />
+			<eStructuralFeatures xsi:type="ecore:EReference"
+				name="writer" eType="#//Writer" containment="true" />
+		</eClassifiers>
+		<eClassifiers xsi:type="ecore:EClass" name="Writer">
+			<eStructuralFeatures xsi:type="ecore:EAttribute"
+				name="name"
+				eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" />
+		</eClassifiers>
+	</ecore:EPackage>
+
+生成的Java代码
+
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/emf_demo_2.gif)
 
 
 ### 参考资料
