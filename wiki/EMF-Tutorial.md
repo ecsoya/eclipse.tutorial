@@ -88,3 +88,4 @@ EMF模型是通过映射ecore模型产生的用来生成Java代码的模型，�
 
 ***
 [Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
+下一篇：[EMF Persisting Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/EMF-Persisting-Tutorial)
