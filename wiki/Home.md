@@ -43,7 +43,7 @@ Eclipse分为好多个版本，可以提供不同的功能给各种类型的开�
 RCP（Rich Client Platform），简单来说就是eclipse核心组件与一些特定的插件所组成的程序，他比普通的Java Application复杂而且功能丰富。通过运行上面的例子，你们也应该能看到，RCP运行起来的界面跟eclipse很相似，不过是少了好多的界面或是功能。这就对了，少了的那些东西，正是由一个一个的eclipse插件提供的。
 
 ### 6. Eclipse UI
-Eclipse3.x及以下的版本中界面主要是通过SWT和JFace来实现的，Eclipse4之后的版本，逐渐加入了Java FX实现，不过要学习eclipse插件开发，就必须先对SWT和Jface有个系统的学习。接下来的章节我们就从[SWT]{{site.baseurl}}/eclipse.tutorial/wiki/Standard-Widget-Toolkit.html)开始。
+Eclipse3.x及以下的版本中界面主要是通过SWT和JFace来实现的，Eclipse4之后的版本，逐渐加入了Java FX实现，不过要学习eclipse插件开发，就必须先对SWT和Jface有个系统的学习。接下来的章节我们就从 [SWT]({{site.baseurl}}/eclipse.tutorial/wiki/Standard-Widget-Toolkit.html) 开始。
 
 [Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
 
