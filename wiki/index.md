@@ -6,7 +6,7 @@ menu: wiki
 ---
 [Eclipse Plug-in Development Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Home)
 
-* [Standard Widget Toolkit Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Standard-Widget-Toolkit-(SWT))
+* [Standard Widget Toolkit Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Standard-Widget-Toolkit)
     * [Widgets Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/SWT-Widgets)
         * [Label Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Label-Tutorial)
         * [Button Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Button-Tutorial)
