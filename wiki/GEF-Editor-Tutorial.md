@@ -15,25 +15,25 @@ GEF中三种默认的编辑器：
 
 ### 组件
 
-1. EditDomain：是一个工具集，它将CommandStack，GraphicalViewer以及Palette相关的内容整合到一起。它也用来调度Palette中的所有工具，以及根据不同的工具去调用不同的Command，然后在CommandStack中执行。
-2. EditPartViewer：
+1. **EditDomain**：是一个工具集，它将CommandStack，GraphicalViewer以及Palette相关的内容整合到一起。它也用来调度Palette中的所有工具，以及根据不同的工具去调用不同的Command，然后在CommandStack中执行。
+2. **EditPartViewer**：
 	* 它是一个SWT Control的实现，所有的图形都创建在这个SWT Control上面。
 	* 它用来管理所有的EditPart的生命周期。
 	* 它也是一个SelectionProvider，会提供一组选中的EditPart，选中的所有的EditPart中，最后一个也被标记为Primary Selection。
 	* 和JFace中的Viewer类似，EditPartViewer也需要一个input来实现子元素的加载，它是通过setContents方法来实现的；contents可以是一个具体的模型，也可以是模型对应的EditPart，但前提是你必须先设置了对应的EditPartFactory。
 	* Root EditPart并不是指root模型对应的EditPart，这里的Root EditPart是通过一个专门的接口org.eclipse.gef.RootEditPart实现的，主要作用是实现一些不同的分层（Layer）。
 	* KeyHandler用来设置一些特殊的键盘事件绑定。
-3. EditPart和EditPartFactory：
+3. **EditPart和EditPartFactory**：
 	* EditPartFactory是用来根据不同的模型创建EditPart的一个工厂类。
 	* 每一个EditPart都对应一种模型，它相当于模型的控制器（Controller）。
 	* 每一个EditPart都必须添加一个Figure或者TreeItem来作为视图（View）。
 	* 每一个EditPart中都会添加零到多个EditPolicy来实现编辑。
 	* EditPart中子元素的加载可以通过实现getModelChildren()来完成。
-4. EditPolicy：用来显示Feedback和返回各种工具或操作所对应的Command。
-4. CommandStack和Command：
+4. **EditPolicy**：用来显示Feedback和返回各种工具或操作所对应的Command。
+4. **CommandStack和Command**：
 	* CommandStack是用来执行并记录当前Command信息的工具，同时它也是Undo和Redo操作的依赖。
 	* Command是所有编辑实现过程。
-5. Palette：工具条，包含选择，创建节点和创建连线等。
+5. **Palette**：工具条，包含选择，创建节点和创建连线等。
 
 ### 示例
 
