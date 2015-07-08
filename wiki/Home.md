@@ -45,10 +45,9 @@ RCP（Rich Client Platform），简单来说就是eclipse核心组件与一些�
 ### 6. Eclipse UI
 Eclipse3.x及以下的版本中界面主要是通过SWT和JFace来实现的，Eclipse4之后的版本，逐渐加入了Java FX实现，不过要学习eclipse插件开发，就必须先对SWT和Jface有个系统的学习。接下来的章节我们就从 [SWT]({{site.baseurl}}/eclipse.tutorial/wiki/Standard-Widget-Toolkit.html) 开始。
 
-[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
-
-***
-
-参考资料：
+### 参考资料：
  
  * [Eclipse Corner](https://wiki.eclipse.org/Eclipse_Corner)
+
+***
+ [Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
