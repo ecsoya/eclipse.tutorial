@@ -121,7 +121,14 @@ GEF中三种默认的编辑器：
 		GraphicalViewer viewer = getGraphicalViewer();
 		viewer.setContents(getModel()); // set the contents of this editor
     	
-		
+### GEF Example
+
+1. 安装GEF Example插件。
+2. 新建Example，GEF Example Plug-ins。
+3. 运行。
+
+### 参考资料
+1. [Graphical Editing Framework](http://www.eclipse.org/gef/)
 
 ***
 [Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/) 上一篇：[GEF Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/GEF-Tutorial) 下一篇：[GEF EditParts Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/GEF-EditParts-Tutorial)
