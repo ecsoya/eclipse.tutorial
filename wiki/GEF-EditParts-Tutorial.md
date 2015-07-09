@@ -58,14 +58,17 @@ RootEditPart一般不需要重写，
     				├ Connection Layer 
     				└ Primary Layer   
       			└  Grid Layer 
-1. **Guide Layer**：常见与显示Ruler和Guide，在显示尺度条（Ruler）的编辑器中，可以用来在Ruler上面创建一些Guide，Guide会有一些水平的或垂直的连线，编辑器中的图形会附着到这些线上面，然后移动Guide的时候，所有附着的图形都会跟着移动。
+1. **Guide Layer**：用来显示Ruler和Guide，在显示尺度条（Ruler）的编辑器中，可以用来在Ruler上面创建一些Guide，Guide会有一些水平的或垂直的连线，编辑器中的图形会附着到这些线上面，然后移动Guide的时候，所有附着的图形都会跟着移动。
 ![]({{site.baseurl}}/eclipse.tutorial/wiki/images/gef_guides.gif)
-2. **Feedback Layer**
-3. **Handle Layer**
-4. **Scaled Feedback Layer**
-5. **Connection Layer**
-6. **Primary Layer**
-7. **Grid Layer**
+2. **Feedback Layer**：用来显示一些操作的反馈信息，比如移动图形是的阴影等。
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/gef_feedbacks.gif)
+3. **Handle Layer**：用于显示一些图形工具，如常见的选中一个图形的时候，会有改变大小的工具。
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/gef_handles.gif)
+4. **Scaled Feedback Layer**：显示支持缩放的Feedback。
+5. **Connection Layer**：用来显示所有的连线。
+6. **Primary Layer**：用来显示所有的图形。
+7. **Grid Layer**：用来显示对齐用的格子（Grid）。
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/gef_grid.gif)
 
 
 在TreeViewer中常用的有：
