@@ -22,4 +22,4 @@ menu: wiki
 
 
 ***
-[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/) 上一篇：[Layouts Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Layouts-Tutorial) 下一篇：[RowLayout]({{site.baseurl}}/eclipse.tutorial/wiki/RowLayout-Tutorial.html)
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/) 上一篇：[Layouts Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Layouts-Tutorial) 下一篇：[RowLayout Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/RowLayout-Tutorial.html)

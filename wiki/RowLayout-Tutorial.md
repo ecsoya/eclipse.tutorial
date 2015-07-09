@@ -38,4 +38,4 @@ menu: wiki
   * _**exclude**_：`当设置为true的时候，Layout会忽略它的存在，不给它分配空间。默认为false。`
 
 ***
-[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)  上一篇：[FillLayout]({{site.baseurl}}/eclipse.tutorial/wiki/FillLayout-Tutorial.html) 下一篇：[GridLayout]({{site.baseurl}}/eclipse.tutorial/wiki/GridLayout-Tutorial.html)
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)  上一篇：[FillLayout Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/FillLayout-Tutorial.html) 下一篇：[GridLayout Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/GridLayout-Tutorial.html)

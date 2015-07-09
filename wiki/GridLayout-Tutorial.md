@@ -67,4 +67,4 @@ GridLayout是SWT中使用率最高的一个Layout，它主要采用的是格子�
 2. [SWT Example: LayoutExample](http://www.eclipse.org/swt/examples.php)
 
 ***
-[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)  上一篇：[RowLayout]({{site.baseurl}}/eclipse.tutorial/wiki/RowLayout-Tutorial.html) 下一篇：[FormLayout]({{site.baseurl}}/eclipse.tutorial/wiki/FormLayout-Tutorial.html)
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)  上一篇：[RowLayout Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/RowLayout-Tutorial.html) 下一篇：[FormLayout Tutorial]({{site.baseurl}}/eclipse.tutorial/wiki/FormLayout-Tutorial.html)
