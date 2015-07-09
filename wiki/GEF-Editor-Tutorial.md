@@ -124,4 +124,4 @@ GEF中三种默认的编辑器：
 		
 
 ***
-[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/) 上一篇：[GEF Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/GEF-Tutorial)下一篇：[GEF EditParts Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/GEF-EditParts-Tutorial)
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/) 上一篇：[GEF Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/GEF-Tutorial) 下一篇：[GEF EditParts Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/GEF-EditParts-Tutorial)
