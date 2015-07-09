@@ -27,7 +27,7 @@ EditPolicy是用来分发EditPart中的编辑操作的一组接口。它的主�
 1. boolean understandsRequest(Request request)：一般情况下，工具在调用command之前，会进行EditPolicy验证。
 2. EditPart getTargetEditPart(Request request)：和上一步的验证类似，看此EditPolicy有没有重定向。
 3. void showXXXFeedback(Request request)：显示feedback。
-4. void eraseXXXFeedback(Request request)：擦出feedback，如果显示了，一定要擦出干净。
+4. void eraseXXXFeedback(Request request)：擦除feedback，如果显示了，一定要擦掉。
 5. Command getCommand(Request request)：取得最终的Command。
 
 
