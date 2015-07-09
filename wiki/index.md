@@ -45,7 +45,6 @@ menu: wiki
         * [CTabFolder Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/CTabFolder-Tutorial)
         * [SashForm Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/SashForm-Tutorial)
         * [CLabel Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/CLabel-Tutorial)
-        * [CBanner Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/CBanner-Tutorial)
         * [ViewForm Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/ViewForm-Tutorial)
         * [StyledText Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/StyledText-Tutorial)
     * [Drag and Drop Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Drag-and-Drop-Tutorial)
