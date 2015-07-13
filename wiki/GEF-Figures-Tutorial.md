@@ -78,6 +78,38 @@ GEF Figures（Draw2d）是专门用来绘图的一个插件。可以简单的分
 ### RotatableDecoration
 
 可旋转的装饰Figure，常见的如绘制连线两端的箭头，如PolygonDecoration和PolylineDecoration。
+
+### 渐进色（Gradient）
+
+一个在Draw2d Figure上画渐进色的示例：
+
+	Figure figure = new Figure();
+	figure.setLayoutManager(new XYLayout());
+
+	Figure f = new Figure() {
+		protected void paintFigure(Graphics graphics) {
+			super.paintFigure(graphics);
+
+			Rectangle rect = getBounds();
+
+			// From white to red vertically.
+			graphics.setForegroundColor(ColorConstants.white);
+			graphics.setBackgroundColor(ColorConstants.red);
+			graphics.fillGradient(new Rectangle(rect.x, rect.y, rect.width,
+					rect.height / 2), true);
+
+			// From white to lightGreen horizontally.
+			graphics.setForegroundColor(ColorConstants.white);
+			graphics.setBackgroundColor(ColorConstants.lightGreen);
+			graphics.fillGradient(new Rectangle(rect.x, rect.y
+					+ rect.height / 2, rect.width, rect.height / 2), false);
+		}
+
+	};
+	f.setBorder(new LineBorder(ColorConstants.gray));
+	figure.add(f, new Rectangle(10, 10, 100, 100));
+  
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_gef_draw2d_3.gif)  
  
 ### 其它相关
 1. Border：绘制边框。
