@@ -24,26 +24,27 @@ GEF Figures（Draw2d）是专门用来绘图的一个插件。可以简单的分
 * Ellipse
 * Triangle
 
-		Figure figure = new Figure();
-		figure.setLayoutManager(new XYLayout());
+示例：
 
-		RectangleFigure rect = new RectangleFigure();
-		rect.setBackgroundColor(ColorConstants.blue);
-		figure.add(rect, new Rectangle(5, 5, 50, 50));
+	Figure figure = new Figure();
+	figure.setLayoutManager(new XYLayout());
+	RectangleFigure rect = new RectangleFigure();
+	rect.setBackgroundColor(ColorConstants.blue);
+	figure.add(rect, new Rectangle(5, 5, 50, 50));
 
-		Ellipse ellipse = new Ellipse();
-		ellipse.setBackgroundColor(ColorConstants.yellow);
-		figure.add(ellipse, new Rectangle(65, 5, 50, 50));
+	Ellipse ellipse = new Ellipse();
+	ellipse.setBackgroundColor(ColorConstants.yellow);
+	figure.add(ellipse, new Rectangle(65, 5, 50, 50));
 
-		Triangle triangle = new Triangle();
-		triangle.setOrientation(Triangle.HORIZONTAL);
-		triangle.setBackgroundColor(ColorConstants.red);
-		figure.add(triangle, new Rectangle(125, 5, 50, 50));
+	Triangle triangle = new Triangle();
+	triangle.setOrientation(Triangle.HORIZONTAL);
+	triangle.setBackgroundColor(ColorConstants.red);
+	figure.add(triangle, new Rectangle(125, 5, 50, 50));
 
-		triangle = new Triangle();
-		triangle.setOrientation(Triangle.VERTICAL);
-		triangle.setBackgroundColor(ColorConstants.red);
-		figure.add(triangle, new Rectangle(185, 5, 50, 50));
+	triangle = new Triangle();
+	triangle.setOrientation(Triangle.VERTICAL);
+	triangle.setBackgroundColor(ColorConstants.red);
+	figure.add(triangle, new Rectangle(185, 5, 50, 50));
 
 
 ![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_gef_draw2d_1.gif)
@@ -51,6 +52,28 @@ GEF Figures（Draw2d）是专门用来绘图的一个插件。可以简单的分
 ### Connection
 
 连线，常见的绘值直线的PolylineConnection。
+
+	Figure figure = new Figure();
+	figure.setLayoutManager(new XYLayout());
+
+	RectangleFigure r1 = new RectangleFigure();
+	r1.setBackgroundColor(ColorConstants.blue);
+	figure.add(r1, new Rectangle(5, 5, 50, 50));
+
+	RectangleFigure r2 = new RectangleFigure();
+	r2.setBackgroundColor(ColorConstants.green);
+	figure.add(r2, new Rectangle(200, 5, 50, 50));
+
+	PolylineConnection conn = new PolylineConnection();
+	conn.setSourceAnchor(new ChopboxAnchor(r1));
+	conn.setTargetAnchor(new ChopboxAnchor(r2));
+
+	conn.setTargetDecoration(new PolylineDecoration());
+
+	figure.add(conn);
+
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_gef_draw2d_2.gif)
+
 
 ### RotatableDecoration
 
