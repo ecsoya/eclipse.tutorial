@@ -11,13 +11,13 @@ Eclipse是什么，首先我们想到最多的它是一个IDE，因为它是Java
 
 学习Eclipse插件开发，首先第一个问题肯定是，什么是Eclipse插件？
 
-首先，我们可以想的简单一点：在Eclipse中，你看到的所有的东西，都是Eclipse插件。
+**首先**，我们可以想的简单一点：在Eclipse中，你看到的所有的东西，都是Eclipse插件。
 
-其次，从文件结构的角度看，每一个plugins目录中的jar包都是一个Eclipse插件。
+**其次**，从文件结构的角度看，每一个plugins目录中的jar包都是一个Eclipse插件。
 
-再次，从代码来看，每一个Eclipse插件都包含一个MANIFEST.MF的配置文件，有些还包含扩展实现文件plugin.xml。
+**再次**，从代码来看，每一个Eclipse插件都包含一个MANIFEST.MF的配置文件，有些还包含扩展实现文件plugin.xml。
 
-最后，从功能方面来看，Eclipse插件可以是只包含Java源代码的工程，也可以是只包含文档的工程，也可以是只包含一些资源的工程。
+**最后**，从功能方面来看，Eclipse插件可以是只包含Java源代码的工程，也可以是只包含文档的工程，也可以是只包含一些资源的工程。
 
 ### 怎么开发Eclipse插件
 
@@ -77,7 +77,12 @@ Eclipse是什么，首先我们想到最多的它是一个IDE，因为它是Java
 
 ![]({{site.baseurl}}/eclipse.tutorial/wiki/images/create-plugin-8.png)
 
-
+### 小结
+>
+> 1. 对于很多初学者来说，对Eclipse插件这个概念还是很模糊的，说是插件开发，结果一上来先学SWT和JFace，一堆界面开发的东西和Eclipse插件有什么关系？其实，Eclipse插件是要依赖依赖Eclipse这个平台来释放效果的，你开发的插件，只有放到了Eclipse平台上，显示在了Eclipse的Workbench上，才算是真正的Eclipse的插件，而与Eclipse Workbench就是基于SWT和JFace开发的，所以为什么我们在最开始先学习的是SWT和JFace的UI开发。
+> 2. 难道插件开发就是SWT和JFace的UI开发吗？是，也不是。是是因为1中的那个问题（融入Workbench），不是是因为你的插件没有价值（没有实现真正的功能）。举个例子，作为Java开发者，你写好一个Java类之后会自动的编译成.class文件，简单的说你只是在一个文本的编辑器中输入了一些字符串（UI），这个功能在你所有的文本编辑器中都可以实现，但是Java编辑器在你的所有输入动作之后，在做着检查，编译等等的一系列你看不见的操作，这才是这个插件真正的价值所在。
+> 3. 我们现在要学的，只是扩展Eclipse中的一些基本功能比如视图，编辑器之类的，这个扩展的过程就是插件开发的过程。在这里，提到扩展（Extension）和扩展点，我们也可以说插件开发就是实现扩展的工程。
+> 
 
 ***
 [Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/) 上一篇：[JFace DataBinding Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/JFace-DataBinding-Tutorial) 下一篇：[Views Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Views-Tutorial)
