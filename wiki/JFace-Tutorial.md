@@ -17,6 +17,9 @@ JFace主要有以下几部分内容组成：
 6. **Field assist**：提供对话框，向导或其它界面上控件的提示帮助等信息。如图标装饰符，自动填充（Eclipse *ctrl+space*）等功能。
 7. [**JFace DataBinding**](http://ecsoya.github.io/eclipse.tutorial/wiki/JFace-DataBinding-Tutorial)：提供SWT控件的DataBinding功能。
 
+### 参考资料：
+
+1. [JFace snippets and examples](http://ecsoya.github.io/eclipse.tutorial/wiki/Build-JFace-Snippets)
 
 ***
 [Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/) 上一篇：[Image Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Image-Tutorial) 下一篇：[JFace Viewers Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/JFace-Viewers-Tutorial)

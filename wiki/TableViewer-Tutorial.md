@@ -260,7 +260,7 @@ Class BookLabelProvider
 
 ### 参考资料：
 
-1. [JFace snippets and examples]()
+1. [JFace snippets and examples](http://ecsoya.github.io/eclipse.tutorial/wiki/Build-JFace-Snippets)
 
 ***
-[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/) 上一篇：[JFace Viewer Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/JFace-Viewers-Tutorial) 下一篇：[TreeViewer Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/TreeViewer-Tutorial)

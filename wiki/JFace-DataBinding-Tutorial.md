@@ -156,7 +156,7 @@ DataBinding
 
 ### 参考资料
 1. [JFace Data Binding/Tutorial](https://wiki.eclipse.org/JFace_Data_Binding/Tutorial)
-
+2. [JFace snippets and examples](http://ecsoya.github.io/eclipse.tutorial/wiki/Build-JFace-Snippets)
 
 ***
 [Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/) 上一篇：[JFace Dialogs Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/JFace-Dialogs-Tutorial) 下一篇：[Plug-in Development Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Plug-in-Development-Tutorial)

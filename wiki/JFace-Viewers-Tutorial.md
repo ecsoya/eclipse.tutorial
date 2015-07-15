@@ -17,8 +17,8 @@ JFace Viewer框架，允许你将你的模型直接显示到标准的SWT控件�
 ### Viewer
 * [TableViewer](http://ecsoya.github.io/eclipse.tutorial/wiki/TableViewer-Tutorial)
 * [TreeViewer](http://ecsoya.github.io/eclipse.tutorial/wiki/TreeViewer-Tutorial)
-* [ListViewer](http://ecsoya.github.io/eclipse.tutorial/wiki/ListViewer-Tutorial)
-* [ComboViewer](http://ecsoya.github.io/eclipse.tutorial/wiki/ComboViewer-Tutorial)
+* ListViewer
+* ComboViewer
 
 ### Content Provider
 
