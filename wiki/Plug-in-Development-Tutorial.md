@@ -47,12 +47,14 @@ Eclipse是什么，首先我们想到最多的它是一个IDE，因为它是Java
 
 ### 插件工程
 
-1. Plug-in Project
-2. [Feature Project](http://ecsoya.github.io/eclipse.tutorial/wiki/Feature-Project-Tutorial)
-3. [Update Site Project](http://ecsoya.github.io/eclipse.tutorial/wiki/UpdateSite-Project-Tutorial)
-4. [Fragment Project](http://ecsoya.github.io/eclipse.tutorial/wiki/Fragment-Project-Tutorial)
+插件工程通常有以下几种类型：
 
-### 示例
+1. Plug-in Project：常规的插件工程。
+2. [Feature Project](http://ecsoya.github.io/eclipse.tutorial/wiki/Feature-Project-Tutorial)：与打包发布相关的工程。
+3. [Update Site Project](http://ecsoya.github.io/eclipse.tutorial/wiki/UpdateSite-Project-Tutorial)：与打包发布相关的工程。
+4. [Fragment Project](http://ecsoya.github.io/eclipse.tutorial/wiki/Fragment-Project-Tutorial)：提供其它插件的Patch的工程。
+
+### Plug-in Project
 
 1.右键菜单选择新建插件工程（Plug-in Project）
 
