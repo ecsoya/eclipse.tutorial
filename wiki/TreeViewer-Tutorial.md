@@ -62,8 +62,8 @@ TreeViewer和[TableViewer](http://ecsoya.github.io/eclipse.tutorial/wiki/TableVi
 
 其中：
 
-1. `getElement()`方法取得是根目录元素。
-2. `getChildren()`方法取得是每一个元素的子节点，包含根目录元素。
+1. `getElement()`方法取的是根目录元素。
+2. `getChildren()`方法取的是每一个元素的子节点，包含根目录元素。
 3. `hasChildren()`方法是在`getChildren()`方法调用之前判断有没有子节点的。
 4. `getParent()`方法对应取到的是子节点的父节点元素。
 
