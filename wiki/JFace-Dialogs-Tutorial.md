@@ -7,7 +7,7 @@ menu: wiki
 
 JFace Dialog和[SWT Dialog](http://ecsoya.github.io/eclipse.tutorial/wiki/Dialog-Tutorial)不同，SWT Dialog主要是一些调用系统已有的对话框，比如颜色，字体等，而JFace Dialog主要是提供了一些便于用户自定义的接口，以便我们实现自己的对话框。
 
-### JFace Dialog
+### JFace Dialogs
 
 我们常用的JFace Dialog主要有一下一些：
 
@@ -97,6 +97,11 @@ WizardPage：
 如图：
 
 ![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_jface_wizarddialog.png)
+
+>
+> 1. Wizard是WizardDialog实现的关键，里面可以添加多个WizardPage。
+> 2. 每个WizardPage必须要实现createControl()方法，并且要调用setControl()方法来设置创建好的控件。
+>
 
 
 ***

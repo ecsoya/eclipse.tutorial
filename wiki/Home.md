@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Eclipse Plug-in Development
+title: Overview of developing Eclipse Plug-ins 
 wikiPageName: Home
 menu: wiki
 ---
@@ -50,4 +50,13 @@ Eclipse3.x及以下的版本中界面主要是通过SWT和JFace来实现的，Ec
  * [Eclipse Corner](https://wiki.eclipse.org/Eclipse_Corner)
 
 ***
- [Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
+ [Wiki Indexes]({{site.baseurl}}/eclipse.tutorial/wiki/) 下一篇：[SWT Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Standard-Widget-Toolkit) 
+ 
+更多：
+
+* [JFace Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/JFace-Tutorial)
+* [Eclipse Plug-in Development Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Plug-in-Development-Tutorial) 
+* [Eclipse 3.x RCP Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Eclipse-3.x-RCP-Tutorial) 
+* [GEF Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/GEF-Tutorial)
+* [EMF Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/EMF-Tutorial)
+

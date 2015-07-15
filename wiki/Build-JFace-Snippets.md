@@ -9,7 +9,7 @@ JFace snippets and examples were located on eclipse git server.
 
 ### Clone from GIT
 
-git clone http://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git
+`git clone` http://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git
 
 
 ### Import to Workspace
