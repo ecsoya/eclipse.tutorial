@@ -208,6 +208,10 @@ Class BookLabelProvider
 		}
 	});
 
+> 通过给每一个TableViewerColumn来设置CellLabelProvider完成对这一列所有内容的定制。
+> 
+> 除了常用的ColumnLableProvider，还有OwnerDrawLabelProvider用来自定义绘制表格。
+
 #### 设置过滤器（Filter）
 
 	viewer.addFilter(new ViewerFilter() {
@@ -253,6 +257,10 @@ Class BookLabelProvider
 	});
 
 > 排序功能主要通过Viewer.setComparator()方法来实现。
+
+### 参考资料：
+
+1. [JFace snippets and examples]()
 
 ***
 [Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)
