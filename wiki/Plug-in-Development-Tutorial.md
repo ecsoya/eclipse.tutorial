@@ -23,7 +23,21 @@ Eclipse是什么，首先我们想到最多的它是一个IDE，因为它是Java
 
 我们先认识Eclipse Workbench。
 
+#### Eclipse Workbench
+
+Workbench是Eclipse最顶层的UI，它里面包含Eclipse在运行中出现的所有的窗口（Window），对话框（Dialog），向导（Wizard）等等的UI界面。一个运行的Eclipse实例只包含一个Workbench，但可以包含多个Window（通过菜单Window -> New Window可以打开多个Window）。
+
 ![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_plugin_workbench.png)
+
+我们在上图中看见的就是一个Window，Window主要由菜单（MenuBar），工具栏（ToolBar），视图（View）和编辑器（Editor），透视图切换（Shortcut bar）和状态栏（Status Line）等组成。
+
+#### 透视图（Perspective）
+
+透视图（Perspective）主要用来布局和管理窗口（Window）中的所有视图。
+
+在一个窗口（Window）中，编辑器的位置是固定不变的，但是围绕着编辑器的视图却可以通过拖拽来任意的更改位置，也可以关闭，透视图（Perspective）主要就是用来定制一些固定布局的窗口（Window）。
+
+#### 插件开发
 
 我们一般意义上说的插件开发，首先是从Eclipse Workbench开始的，因为你开发的插件，或多或少的都要通过Eclipse Workbench展现给用户。
 
