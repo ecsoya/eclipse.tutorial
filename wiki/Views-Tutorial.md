@@ -44,9 +44,6 @@ menu: wiki
 
 ![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_plugins_view3.png)
 
-如图：
-
-![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_plugins_view4.png)
 
 ### IViewPart，ViewPart
 一般情况下，我们通过继承ViewPart类来实现我们的视图。而`createPartControl()`方法就是我们用来创建视图界面的入口方法。
@@ -68,7 +65,7 @@ menu: wiki
 
 如图：
 
-![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_plugins_view5.png)
+![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_plugins_view4.png)
 
 #### Context Menu
 
