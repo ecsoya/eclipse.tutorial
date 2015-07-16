@@ -185,4 +185,4 @@ handler示例：
         </handler>
     </extension>
 
-[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/index.html)
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/index.html) 上一篇：[Editors Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Editors-Tutorial) 下一篇：[Preferences Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Preferences-Tutorial)
