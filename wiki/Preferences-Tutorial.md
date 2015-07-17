@@ -84,6 +84,20 @@ Preference Page是通过扩展扩展点`org.eclipse.ui.preferencePages`来实现
 		    }
 		}
 
+>FieldEditorPreferencePage的实现跟JFace中的FieldEditor是分不开的。FieldEditor是一组由Label和具体的控件组成的editor组件，有以下几种类型：
+>
+>1. BooleanFieldEditor 
+>2. IntegerFieldEditor
+>3. StringFieldEditor
+>4. RadioGroupFieldEditor
+>5. ColorFieldEditor
+>6. FontFieldEditor
+>7. DirectoryFieldEditor
+>8. FileFieldEditor
+>9. PathEditor
+> 
+ 
+
 定义Preference Page的时候，我们都要首先要设置一个Preference Store来存储和读取首选项值。
 
 	setPreferenceStore(Activator.getDefault().getPreferenceStore());
