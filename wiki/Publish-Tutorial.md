@@ -7,7 +7,7 @@ menu: wiki
 
 Eclipse插件写好之后，就需要去打包发布。
 
-第一步：创建[Feature Project](http://ecsoya.github.io/eclipse.tutorial/wiki/Feature-Project-Tutorial)，将插件分组归类。
+第一步：创建[Feature Project](http://ecsoya.github.io/eclipse.tutorial/wiki/Feature-Project-Tutorial)，将插件分组归类并打包。
 
 第二步：创建[Update Site Project](http://ecsoya.github.io/eclipse.tutorial/wiki/UpdateSite-Project-Tutorial "Update Site")，将插件发布出去。
 
