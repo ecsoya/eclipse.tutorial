@@ -160,8 +160,8 @@ Eclipse RCP中添加插件的方法跟在Eclipse中直接添加插件是一样�
 
 ### RCP打包与发布
 
-在RCP打包发布之前，我们可能需要对RCP做一些包装或者美化（Branding），请参考下面的文章。
+Eclipse RCP的打包发布与Plug-in的打包发布稍有不同，因为我们发布的是一个用户不用安装就可以直接使用的产品，我们可能还需要对RCP做一些包装或者美化（Branding），这就要用到[Product Configuration](http://ecsoya.github.io/eclipse.tutorial/wiki/Product-Configuration-Tutorial)。
 
 ***
 
-[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/) 上一篇：[Fragment Project Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Fragment-Project-Tutorial) 下一篇：[Branding Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Branding-Tutorial)
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/) 上一篇：[Fragment Project Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Fragment-Project-Tutorial) 下一篇：[Product Configuration Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Product-Configuration-Tutorial)
