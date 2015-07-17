@@ -59,4 +59,4 @@ Feature的打包也很简单：
 
 
 ***
-[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/) 上一篇： [Publish Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Publish-Tutorial) 下一篇： [Update Site Project Tutorial](http://http://ecsoya.github.io/eclipse.tutorial/wiki/UpdateSite-Project-Tutorial)
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/) 上一篇： [Publish Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Publish-Tutorial) 下一篇： [Update Site Project Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/UpdateSite-Project-Tutorial)
