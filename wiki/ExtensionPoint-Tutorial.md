@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ExtensionPoint Tutorial
+title: Extension Point Tutorial
 wikiPageName: ExtensionPoint-Tutorial
 menu: wiki
 ---
@@ -21,9 +21,9 @@ menu: wiki
 
 ![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_extensionpoint_create.png)
 
-1. Extension Point ID：扩展点的标识（Internal ID）。`注意：在外部使用的时候当前扩展点的ID=[Plugin ID].[Internal ID]。`
-2. Extension Point Name：扩展点的名称。
-3. Extension Point Schema：扩展点的描述文件。
+1. **Extension Point ID**：扩展点的标识（Internal ID）。`注意：在外部使用的时候当前扩展点的ID=[Plugin ID].[Internal ID]。`
+2. **Extension Point Name**：扩展点的名称。
+3. **Extension Point Schema**：扩展点的描述文件。
 
 ### Extension Point Schema
 
@@ -31,11 +31,11 @@ menu: wiki
 
 所有的扩展点的内容，都是通过这个Schema文件来定义的。Schema中的元素有：
 
-1. Element：节点元素。
-2. Attribute：每个节点的基本属性。
-3. Compositor：节点的引用关系属性。（详细请参考XSD）
-	1. Choice：无序的。
-	2. Sequence：有序的。
+1. **Element**：节点元素。
+2. **Attribute**：每个节点的基本属性。
+3. **Compositor**：节点的引用关系属性。（详细请参考XSD）
+	1. **Choice**：无序的。
+	2. **Sequence**：有序的。
 
 #### Element
 
@@ -47,16 +47,16 @@ Element的定义比较简单，你只需要提供Name就可以。
 
 Attribute的定义除了Name之外，还有两个比较关键的部分：
 
-1. Use：定义属性的级别。
-	* optional：可选的，在实现扩展的时候是一个可选项。
-	* required：必须的，在实现扩展的时候必须提供一个值。
-	* default：可以在定义扩展点的时候设定一个默认值。
-2. Type：属性的类型。
-	* string：任意字符串。
-	* boolean：true或false。
-	* java：指定的Java类，通常会设定一个接口或是父类作为指定的Java类的超级类。
-	* resource：任意类型的资源，比如文件或图片。
-	* identifier：引用其它扩展的ID。
+1. **Use**：定义属性的级别。
+	* **optional**：可选的，在实现扩展的时候是一个可选项。
+	* **required**：必须的，在实现扩展的时候必须提供一个值。
+	* **default**：可以在定义扩展点的时候设定一个默认值。
+2. **Type**：属性的类型。
+	* **string**：任意字符串。
+	* **boolean**：true或false。
+	* **java**：指定的Java类，通常会设定一个接口或是父类作为指定的Java类的超级类。
+	* **resource**：任意类型的资源，比如文件或图片。
+	* **identifier**：引用其它扩展的ID。
 
 ![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_extensionpoint_attribute.png)
 
