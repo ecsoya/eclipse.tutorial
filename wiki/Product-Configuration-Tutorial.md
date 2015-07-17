@@ -13,13 +13,18 @@ Product Configuration用来配置RCP的所有的信息，包括插件，依赖�
 
 ![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_rcp_product_1.png)
 
-输入名称，并且选择创建源，一般情况下我们会根据RCP的运行记录去创建。（这个是最简单最准确的，但前提是你的RCP必须通过_`Launch an Eclipse application`_选项成功运行之后，其它的选项不推荐，适用于高级用户。）
+输入名称，并且选择创建源，一般情况下我们会根据RCP的运行记录去创建。
+> 创建源的选择：
+> 
+> 1. Create a configuration file with basic settings：空白创建。 
+> 2. Use an existing product：通过其它的Product Configuration文件来创建。
+> 3. Use a launch configuration：这个是最简单最准确的，但前提是你的RCP必须通过_`Launch an Eclipse application`_选项成功运行一次之后。
 
-二，确定Product Definition中的Product和Application是否正确。
+二，确定**Product Definition**中的*Product*和*Application*是否正确。
 
 ![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_rcp_product_2.png)
 
-三，通过plugins或features两种方式来配置RCP的依赖插件。
+三，通过**plugins**或**features**两种方式来配置RCP的依赖插件。
 
 ![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_rcp_product_3.png)
 
@@ -31,7 +36,7 @@ Product Configuration用来配置RCP的所有的信息，包括插件，依赖�
 
 ![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_rcp_product_5.png)
 
-六，配置Splash图片，进度条等信息。
+六，配置**Splash**图片，进度条等信息。
 
 ![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_rcp_product_7.png)
 
@@ -39,7 +44,7 @@ Splash
 
 ![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_rcp_product_6.png)
 
-七，配置Branding信息，如RCP的图片，关于对话框（About Dialog）内容，欢迎页面（Welcome Page）。
+七，配置**Branding**信息，如RCP的图片，关于对话框（About Dialog）内容，欢迎页面（Welcome Page）。
 
 About Dialog
 
@@ -49,11 +54,11 @@ Welcome Page
 
 ![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_rcp_product_intro.png)
 
-八，配置license信息
+八，配置**license**信息
 
 ![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_rcp_product_license.png)
 
-九，配置Update信息
+九，配置**Update**信息
 
 ![]({{site.baseurl}}/eclipse.tutorial/wiki/images/image_rcp_product_updates.png)
 
