@@ -78,4 +78,4 @@ Welcome Page
 
 验证的主要作用是保证当前RCP中的所有插件及其依赖是完整的。
 
-[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)  上一篇：[Eclipse 3.x RCP Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Eclipse-3.x-RCP-Tutorial) 下一篇：[Eclipse Modeling Framework Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/EMF-Tutorial)
+[Back to Home]({{site.baseurl}}/eclipse.tutorial/wiki/)  上一篇：[Eclipse 3.x RCP Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/Eclipse-3.x-RCP-Tutorial) 下一篇：[JDT Overview](http://ecsoya.github.io/eclipse.tutorial/wiki/JDT-Overview)
